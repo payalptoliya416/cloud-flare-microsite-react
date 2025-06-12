@@ -150,7 +150,6 @@ const Survey = () => {
     return (
         <div className="main ">
             <div className="micro-logo">
-                <img src="/assets/image/logoone.png" alt="" className="mx-auto micro-one"/>
                 <img src="/assets/image/logosec.png" alt="" className="mx-auto micro-sec"/>
                 <div className="back-btn">
                 <a href="/app"><i className="bi bi-chevron-left "></i> Back</a> 
@@ -323,7 +322,7 @@ const Survey = () => {
                             <div className="more-than-one mt-5">
                                 <h5 className=" mb-1" id="explore">What would you like to explore next
                                     with Cloudflare following Immerse
-                                    Singapore 2025?</h5>
+                                   Bangkok 2025?</h5>
                                 <p className="mb-3">(Select one or more options that best reflect your interest)
                                 </p>
 
@@ -335,11 +334,6 @@ const Survey = () => {
                                     <label className="checkbox-block checkbox-label">
                                         <input type="checkbox" name="explore" value="Meet the Expert – Use case-based technical deep dive with our Solutions Engineering team" checked={response.explore.includes("Meet the Expert – Use case-based technical deep dive with our Solutions Engineering team")} onChange={(e) =>handleCheckboxChange(e)}/>
                                         <span>Meet the Expert – Use case-based technical deep dive with our Solutions Engineering team</span>
-                                    </label>
-                                
-                                    <label className="checkbox-block checkbox-label">
-                                        <input type="checkbox" name="explore" value="Sign me up for the upcoming BlazeHack Test Flight – Hands-on serverless development mastery series" checked={response.explore.includes("Sign me up for the upcoming BlazeHack Test Flight – Hands-on serverless development mastery series")} onChange={(e) =>handleCheckboxChange(e)}/>
-                                        <span>Sign me up for the upcoming BlazeHack Test Flight – Hands-on serverless development mastery series</span>
                                     </label>
                                 
                                     <label className="checkbox-block checkbox-label">
@@ -382,17 +376,14 @@ const Survey = () => {
                             </div>
                         </div>
                     </form>
-                </div></>}
+                </div></>} 
                 {mode == 2 && <div className="survey-complete">
                     <h3>Thank you for <br/>completing the survey </h3>
                     <img src="/assets/image/survay-thank.png" alt="" />
-                    <p><strong>You are eligible for a free gift! <br/> </strong> Visit counter to claim your gift. </p>
-                    <p>Please note that the gift <br/> can be collected <strong>after 4:30 PM.</strong> </p>
+                    <p><strong>You are eligible for a free gift! <br/> </strong> Visit Registration Counter to redeem <br/>your exclusive Immerse swag.</p>
+                    <p>Redemption starts after<strong>after 4:30 PM.</strong> </p>
                 </div>}
-                {mode == 3 && <div className="survey-complete">
-                    <img src="/assets/image/survay-thank.png" alt="" />
-                    <h4>You have redeemed <br/> your free gift</h4>
-                </div>}</>}
+                </>}
             </div>
             <Footer page="survey" />
         </div>

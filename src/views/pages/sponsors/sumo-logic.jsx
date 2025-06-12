@@ -23,7 +23,6 @@ const SumoLogic = () => {
         <div className="main">
         <section>
             <div className="micro-logo">
-                <img src="/assets/image/logoone.png" alt="" className="mx-auto micro-one"/>
                 <img src="/assets/image/logosec.png" alt="" className="mx-auto micro-sec"/>
                 <div className="back-btn">
                    <a href="/app/sponsors"><i className="bi bi-chevron-left "></i> Back</a> 
@@ -34,7 +33,7 @@ const SumoLogic = () => {
                   <h2>Sumo Logic | Tech Direct</h2>
                   <img src="/assets/image/sumoLogo.png" alt="" className="sponsor-logo-img"/>
                   <p className="para">TechDirect, accessible at <u>techdirect.net</u>, is a 
-                    Singapore-based IT solutions provider specializing in 
+                    Bangkok-based IT solutions provider specializing in 
                     managed services and cybersecurity. With over 13 years of 
                     industry experience, TechDirect offers a comprehensive suite 
                     of services designed to address modern IT challenges faced 

@@ -10,7 +10,7 @@ function Speaker7Modal({show , handleClose}) {
         <Modal.Body>
         <div className="sponsor-modal-info">
             <p><strong>Sze Rong </strong> is a Solutions Engineer at Cloudflare, driving 
-                cybersecurity adoption in Singapore and Indonesia. With prior 
+                cybersecurity adoption in Bangkok and Indonesia. With prior 
                 experience at Microsoft and Salesforce, he excels at enhancing 
                 customer engagement and business outcomes via data-driven 
                 solutions. Specializing in Cloudflare's connectivity cloud, Sze Rong 

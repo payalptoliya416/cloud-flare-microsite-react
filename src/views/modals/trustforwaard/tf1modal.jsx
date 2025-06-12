@@ -9,7 +9,7 @@ function Trust1Modal({show , handleClose}) {
         <Modal.Header closeButton></Modal.Header>
         <Modal.Body>
         <div className="title">
-                        <p> Set the strategic tone for Immerse Singapore by showcasing 
+                        <p> Set the strategic tone for Immerse Bangkok by showcasing 
                         Cloudflareʼs vision and leadership in helping organizations 
                         modernize infrastructure, secure their digital assets, and accelerate 
                         innovation in an AI-driven, threat-intensified world. This keynote 

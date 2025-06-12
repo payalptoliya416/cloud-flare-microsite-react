@@ -53,7 +53,7 @@ const Agenda = () => {
         <div className="main">
             <section className="login-page">
                 <div className="logo">
-                    <img src="/assets/image/logo-sin.png" alt="" className="mx-auto logo-sec"/>
+                    <img src="/assets/image/logosec.png" alt="" className="mx-auto logo-sec"/>
                     <div className="back-btn">
                         <a href="/app"><i className="bi bi-chevron-left "></i> Back</a>
                     </div>
@@ -96,7 +96,7 @@ const Agenda = () => {
                                 <div className="col-8 pe-0">
                                 <div className="clock-div"><img src="/assets/image/Clock.png" alt=""/><p>9:45 AM - 10:00 AM</p></div>
                                 <p className="desc">Executive Welcome Address:<br />
-                                    Welcome to Immerse Singapore 2025</p>
+                                    Welcome to Immerse Bangkok 2025</p>
                                 </div>
                                 <div className="col-4"><h6>Goran Risticevic</h6><p>Vice President,<br />
                                     Cloudflare APAC</p>
@@ -113,7 +113,7 @@ const Agenda = () => {
                                     <button type="button" onClick={()=>setAbstract1Visible(true)} className="abstact-btn"><img src="/assets/image/message.png" alt=""/><span>View Abstract</span></button>
                                 </div>
                                 <div className="col-4"><h6>James Allworth</h6><p>Vice President,<br />
-                                    Head of Innovation and,<br />Head of Singaopre office</p>
+                                    Head of Innovation and,<br />Head of Bangkok office</p>
                                 </div>
                             </div>
                             </div>
@@ -129,7 +129,7 @@ const Agenda = () => {
                                     <div className="col-4"><p><strong> Kevin Ng,<br /></strong>Senior Product<br />
                                     Product and Engineering,<br />
                                     Government Technology<br />
-                                    Agency of Singapore<br /></p>
+                                    Agency of Bangkok<br /></p>
                                     </div>
                                 </div>
                             </div>
@@ -157,7 +157,7 @@ const Agenda = () => {
                                 </div>
                                     <div className="col-4">
                                         <h6>Elton Chew,</h6><p>Senior Director,<br />Solutions Engineering,<br />Cloudflare APAC</p>
-                                        <h6>Calvin Ng Min Yew,</h6><p>Director (CSPC),<br />Cyber Security Agency<br />of Singapore (CSA)</p>
+                                        <h6>Calvin Ng Min Yew,</h6><p>Director (CSPC),<br />Cyber Security Agency<br />of Bangkok (CSA)</p>
                                         <h6>Steven Sim,</h6><p>Head of Cybersecurity Chair,<br />Advisory Committee at OT-ISAC (Operational Technology Information Sharing and Analysis Centre)</p>
                                         <h6>Tommy Wong Choon Khit,</h6><p>Head of Cybersecurity,<br />Head of Cybersecurity, SRE, QA, Ryt Bank (part of YTL Communications)</p>
                                     </div>
@@ -192,7 +192,7 @@ const Agenda = () => {
                                         <div className="col-6">
                                         <h6>Calvin Ng Min Yew,</h6>
                                         <p>Director (CSPC),<br />
-                                            Cyber Security Agency<br />of Singapore (CSA)
+                                            Cyber Security Agency<br />of Bangkok (CSA)
                                         </p>
                                         </div>
                                         <div className="col-6">

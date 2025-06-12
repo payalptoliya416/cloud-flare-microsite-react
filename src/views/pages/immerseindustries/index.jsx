@@ -25,7 +25,7 @@ const ImmerseIndustries = () => {
         <div className="main ">
          <section className="login-page">
           <div className="logo">
-            <img src="/assets/image/logo-sin.png" alt="" className="mx-auto logo-sec"/>
+            <img src="/assets/image/logosec.png" alt="" className="mx-auto logo-sec"/>
             <div className="back-btn">
               <a href="/app/immerse-main"><i className="bi bi-chevron-left "></i> Back</a>
            </div>
@@ -34,11 +34,10 @@ const ImmerseIndustries = () => {
             
             <div className="top-lable">
                 <div className="custom-badge-box bg-warning text-white fw-bold">
-                    8:00AM - 5:00PM
+                    8:00AM - 5:45PM
                  </div>
                  <div class="name-title name-new-title">
-                    <h6><span class="gradiant-text">Claire Lim</span> <span class="pav-dashed"> | </span>
-                        <span class="gradiant-text">Ayush Verma</span></h6>
+                    <h6><span class="gradiant-text">Pongpisit Laosuwanwat </span> </h6>
                  </div>
             </div>
             <div className="pavilion-box">
@@ -72,21 +71,7 @@ const ImmerseIndustries = () => {
                             <p>Powering AI in Crypto Exchange.</p>
                         </div>
                     </div>
-                    <div class="pavilion-inner mb-4">
-                        <img class="pav-img" src="/assets/image/ImmerseIndustries2.png" alt=""/>
-                        <div class="pavilion-content-box">
-                            <h4>Public Sector</h4>
-                            <h6>Bulk Tender reference architecture.<br/>
-                              GovTech SEED (ZT use case)<br/>
-                              Synapxe (Advanced App Sec use case)</h6>
-                              <p>Securing Application, Security and
-                              Network Modernization.
-                              Securing Cloud Remote Access
-                              with Zero Trust.
-                              Securing Healthcare Agencies
-                              with Critical Infrastructure.</p>
-                        </div>
-                    </div>
+                   
                 </div>
             </div>
             </div>

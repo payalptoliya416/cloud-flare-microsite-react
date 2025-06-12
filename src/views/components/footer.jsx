@@ -75,8 +75,8 @@ const Footer = (props) => {
                 <li className={props.page == "passport" ? "active" : ""}>
                     <a href="/app/passport">
                     <img src="/assets/image/footer-4.png" alt="Passport"/>
-                    <span>Passport <br/>
-                        Program
+                    <span>My Cloudflare <br/>
+                       Journey
                     </span>
                     </a>
                 </li>

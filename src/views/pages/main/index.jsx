@@ -46,7 +46,6 @@ const Main = () => {
     return (
         <div className="main" id="topnav">
             <div className="micro-logo">
-                <img src="/assets/image/logoone.png" alt="" className="mx-auto micro-one"/>
                 <img src="/assets/image/logosec.png" alt="" className="mx-auto micro-sec"/>
                 <div className="back-btn">
                 <a href="/app"><i className="bi bi-chevron-left "></i> Back</a> 
@@ -83,7 +82,7 @@ const Main = () => {
                         </a>
                         <a href="/app/passport" className="explore-tab-info">
                             <img src="/assets/image/Passport Program.png" alt=""/>
-                            <h3>Passport <br/> Program</h3>
+                            <h3>My Cloudflare  <br/> Journey</h3>
                         </a>
                         
                     </div>
@@ -92,7 +91,7 @@ const Main = () => {
                         <div className="row">
                             <div className="col-6 mb-3">
                                 <div className="session-info  h-100">
-                                <img src="/assets/image/Image 1.jpg" style={{minHeight : 104}} alt="" className="sesson-top-img"/>
+                                <img src="/assets/image/Image 1.png" alt="" className="sesson-top-img h-100"/>
                                     <div className="session-content">
                                         <h3>Immerse Buildersʼ <br/> Series</h3>
                                         <a href="/app/immerse-builders"><button className="gradiant-button btn"> View Details<i className="bi bi-chevron-right"></i></button></a>
@@ -103,17 +102,8 @@ const Main = () => {
                                 <div className="session-info  h-100">
                                 <img src="/assets/image/Image 2.png" alt="" className="sesson-top-img"/>
                                     <div className="session-content">
-                                        <h3>AI Hub</h3>
+                                        <h3>AI Hub </h3>
                                         <a href="/app/hack-the-safe"><button className="gradiant-button btn"> View Details<i className="bi bi-chevron-right"></i></button></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-6">
-                                <div className="session-info  h-100">
-                                <img src="/assets/image/Image 3.jpg" style={{minHeight : 104}} alt="" className="sesson-top-img"/>
-                                    <div className="session-content">
-                                        <h3>Immerse<br/>Pavillion</h3>
-                                        <a href="/app/immerse-main"><button className="gradiant-button btn"> View Details<i className="bi bi-chevron-right"></i></button></a>
                                     </div>
                                 </div>
                             </div>
@@ -134,43 +124,17 @@ const Main = () => {
                         <div className="row">
                             <div className="col-6 mb-3">
                                 <div className="session-info  h-100">
-                                <img src="/assets/image/Image 5.png" alt="" className="sesson-top-img"/>
-                                    <div className="session-content">
-                                        <h3>Executive Trust<br/>Dialogue & Luncheon</h3>
-                                        <a href="/app/trust-forward"><button className="gradiant-button btn"> View Details<i className="bi bi-chevron-right"></i></button></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-6 mb-3">
-                                <div className="session-info  h-100">
                                 <img src="/assets/image/Image 6.png" alt="" className="sesson-top-img"/>
                                     <div className="session-content">
                                         <h3>Partner Forum </h3>
-                                        <a href="https://cloudflare-immerse-partner-forum-singapore.splashthat.com/" target="_blank"><button className="checkout-btn btn"> Check It Out <img src="/assets/image/arrow01.png" alt="" className="ms-1"/></button></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-6 mb-3">
-                                <div className="session-info  h-100">
-                                <img src="/assets/image/Image 7.png" alt="" className="sesson-top-img"/>
-                                    <div className="session-content">
-                                        <h3>BlazeHack  Developer<br/> Test Flight</h3>
-                                        <a href="https://www.reg-events.com/cloudflare-blazehack" target="_blank"><button className="checkout-btn btn"> Check It Out <img src="/assets/image/arrow01.png" alt="" className="ms-1"/></button></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-6 mb-3">
-                                <div className="session-info  h-100">
-                                <img src="/assets/image/Image 8.png" alt="" className="sesson-top-img"/>
-                                    <div className="session-content">
-                                        <h3>FinServ Leadership<br/>Insights</h3>
-                                        <a href="https://www.reg-events.com/cloudflare-finserv-leadership-insights-2025?utm_source=linkedin&utm_medium=organic-social&utm_campaign=immerse_sg_6_reasons" target="_blank"><button className="checkout-btn btn"> Check It Out <img src="/assets/image/arrow01.png" alt="" className="ms-1"/></button></a>
+                                        <a href="https://cloudflarepartnerforumbangkok.splashthat.com/?utm_medium=email&utm_source=promo&utm_campaign=2025-q2-par-apac-connectivity-ge-he-general-partner_forum_bangkok&mkt_tok=NzEzLVhTQy05MTgAAAGaZtymPC1fLV6QPx7hpmskaYf__XuOhPe6ke7BcY30WJhkfis0C4bX0XIj5H_xDexpx9-OyM7EC3L4rzkgSEqc" target="_blank"><button className="checkout-btn btn"> Check It Out <img src="/assets/image/arrow01.png" alt="" className="ms-1"/></button></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <a href="#topnav" className="up-error"><img src="/assets/image/up arrow01.png" alt=""/></a>
+                    <div className="up-error">
+                    <a href="#topnav" className="d-flex justify-content-end mt-2"><img src="/assets/image/top.png" alt=""/></a></div>
             </div>
             </div>
             <Footer page="home" />

@@ -55,7 +55,7 @@ function Login() {
             }
         })
     }
-
+    
   return (
     <>
           <div className="main">
@@ -81,10 +81,13 @@ function Login() {
                   />
                   {error && <h6 className="text-danger mt-3 text-sm">{error}</h6>}
                 </div>
-                <div className="submit-btn">
-                  <button className="btn" type="submit">
+                <div className="action-buttons">
+                  <button className="btn login-btn" type="submit">
                     Log In
                   </button>
+                  <a href="/registration" className="btn register-btn" type="button">
+                    Register Now
+                  </a>
                 </div>
                     </form>
                 </div>

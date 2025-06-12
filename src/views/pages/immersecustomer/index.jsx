@@ -23,7 +23,7 @@ const ImmerseCustomer = () => {
         <div className="main ">
         <section className="login-page">
           <div className="logo">
-            <img src="/assets/image/logo-sin.png" alt="" className="mx-auto logo-sec"/>
+            <img src="/assets/image/logosec.png" alt="" className="mx-auto logo-sec"/>
             <div className="back-btn">
               <a href="/app/immerse-main"><i className="bi bi-chevron-left "></i> Back</a>
            </div>
@@ -33,10 +33,10 @@ const ImmerseCustomer = () => {
             
             <div className="top-lable">
                 <div className="custom-badge-box bg-warning text-white fw-bold">
-                    8:00AM - 5:00PM
+                    8:00AM - 5:45PM
                  </div>
-                 <div className="name-title">
-                    <h6><span className="gradiant-text">AQ Jiao</span> </h6>
+                 <div className="name-title name-new-title">
+                    <h6><span className="gradiant-text">Duanghathai Thammaprasert | <br/> Jarut Nakaramaleerat | <br/> Jutiporn Srikamporn | <br/>  Kunun Sanghiransuk | <br/> Nuttaphan Ruengrangsrirat </span> </h6>
                  </div>
             </div>
             <div className="pavilion-box">

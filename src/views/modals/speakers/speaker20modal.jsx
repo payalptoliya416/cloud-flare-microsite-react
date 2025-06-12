@@ -13,7 +13,7 @@ function Speaker18Modal({show , handleClose}) {
             across Asia Pacific, Japan and China. His team  owns the charter of 
             helping customers gain accelerated business advantages by 
             leveraging Cloudflareʼs global network and services. Based in 
-            Singapore, Elton has over 25 years of technical services experience 
+            Bangkok, Elton has over 25 years of technical services experience 
             in the region.
             </p>
         </div>

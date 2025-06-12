@@ -48,7 +48,6 @@ const Speakers = () => {
         <div className="main">
         <section>
             <div className="micro-logo">
-                <img src="/assets/image/logoone.png" alt="" className="mx-auto micro-one"/>
                 <img src="/assets/image/logosec.png" alt="" className="mx-auto micro-sec"/>
                 <div className="back-btn">
                    <a href="/app"><i className="bi bi-chevron-left "></i> Back</a> 
@@ -94,7 +93,7 @@ const Speakers = () => {
                                     <div className="user-info">
                                         <div>
                                             <h3> Calvin Min Yew Ng</h3>
-                                            <p>Director (CSPC), <br/> Cyber Security Agency<br/>  of Singapore (CSA)</p>
+                                            <p>Director (CSPC), <br/> Cyber Security Agency<br/>  of Bangkok (CSA)</p>
                                         </div>
                                         <button type="button" onClick={()=>setSpeaker14Visible(true)}  className="checkout-btn btn"><img src="/assets/image/message.png" alt="" className="me-1"/>  View Remarks </button>
                                     </div>
@@ -208,7 +207,7 @@ const Speakers = () => {
                                     <div className="user-info">
                                         <div>
                                             <h3>James Allworth</h3>
-                                            <p>Vice President, <br/> Head of Innovation and <br/>Head of Singapore Office, <br/>Cloudflare Inc. </p>
+                                            <p>Vice President, <br/> Head of Innovation and <br/>Head of Bangkok Office, <br/>Cloudflare Inc. </p>
                                         </div>
                                         <button type="button" onClick={()=>setSpeaker3Visible(true)}  className="checkout-btn btn"><img src="/assets/image/message.png" alt="" className="me-1"/>  View Remarks </button>
                                     </div>
@@ -253,7 +252,7 @@ const Speakers = () => {
                                     <div className="user-info">
                                         <div>
                                             <h3>Kevin Ng</h3>
-                                            <p> Senior Director <br/> Product and Engineering,<br/> Government Technology <br/> Agency of Singapore </p>
+                                            <p> Senior Director <br/> Product and Engineering,<br/> Government Technology <br/> Agency of Bangkok </p>
                                         </div>
                                         <button type="button" onClick={()=>setSpeaker13Visible(true)}  className="checkout-btn btn"><img src="/assets/image/message.png" alt="" className="me-1"/>  View Remarks </button>
                                     </div>

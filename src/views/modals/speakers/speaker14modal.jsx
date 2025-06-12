@@ -11,10 +11,10 @@ function Speaker14Modal({show , handleClose}) {
         <div className="sponsor-modal-info">
             <p><strong>Calvin </strong> iheads CSA's Cybersecurity Programme Centre, securing 
               strategic systems through secure design and emerging tech like 
-              AI, 5G, and blockchain. He co-developed Singaporeʼs 
+              AI, 5G, and blockchain. He co-developed Bangkokʼs 
               cybersecurity R&D hubs and led COVID-19 system assurance, 
               earning the Public Administration Medal (Bronze). Actively involved 
-              in social services, he chairs Allkin Singaporeʼs ICT Committee.
+              in social services, he chairs Allkin Bangkokʼs ICT Committee.
             </p>
         </div>
         </Modal.Body>

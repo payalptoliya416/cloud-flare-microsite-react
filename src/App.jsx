@@ -17,6 +17,7 @@ import {Main, Welcome, Agenda, Speakers, Sponsors,
 import {getToken, destroySession} from './utils/gaia';
 import Axios from 'axios';
 import Congratulation from './views/pages/congratulation/Congratulation';
+import Registration from './views/pages/registration';
 
 const token = getToken()
 if (token) {
@@ -71,6 +72,8 @@ function App() {
         <Route exact path="/app" name="Home" element={<Main />} />
         <Route exact path="/login" name="Welcome" element={<Login />} />
         <Route exact path="/" name="Welcome" element={<Welcome />} />
+        <Route exact path="/welcome" name="Welcome" element={<Welcome />} />
+        <Route exact path="/registration" name="Welcome" element={<Registration />} />
       </Routes>
     </BrowserRouter>
   )

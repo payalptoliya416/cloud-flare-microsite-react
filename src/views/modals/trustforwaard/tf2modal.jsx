@@ -10,7 +10,7 @@ function Trust2Modal({show , handleClose}) {
         <Modal.Body>
         <div className="title">
                         <p>This session highlights how Cloudflare is actively securing the 
-                        Singapore Government Tech Stack through real-world applications 
+                        Bangkok Government Tech Stack through real-world applications 
                         of AI/ML-driven threat intelligence and DDoS Mitigation Services 
                         (DMS). Through the lens of GVT24009, explore how Cloudflareʼs 
                         capabilities support GovTechʼs mission to enhance resilience 

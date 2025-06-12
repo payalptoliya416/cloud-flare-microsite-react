@@ -25,7 +25,7 @@ const ImmerseMain = () => {
         <div className="main ">
         <section className="login-page">
           <div className="logo">
-            <img src="/assets/image/logo-sin.png" alt="" className="mx-auto logo-sec"/>
+            <img src="/assets/image/logosec.png" alt="" className="mx-auto logo-sec"/>
             <div className="back-btn">
               <a href="/app/immerse-main"><i className="bi bi-chevron-left "></i> Back</a>
            </div>
@@ -47,8 +47,8 @@ const ImmerseMain = () => {
                     Aftrernoon Tea Break
                  </div>
                </div>
-                 <div class="name-title">
-                    <h6><span class="gradiant-text">Dennis Goh<span class="pav-dashed"> | </span><br/>Ayush Verma</span></h6>
+                 <div class="name-title name-new-title">
+                    <h6><span class="gradiant-text">Dennis Goh | Leela Kanakala | Pongpisit Laosuwanwat | Anh Luu | Siwat Tantiku</span></h6>
                  </div>
             </div>
             <div className="pavilion-box">

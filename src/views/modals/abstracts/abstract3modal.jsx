@@ -18,7 +18,7 @@ function Abstract3Modal({show , handleClose}) {
                         <p className="mt-3">This session will explore the interplay between AI and
                           cybersecurity, <strong>addressing how cybersecurity both protects and
                           constrains AI, ensuring its safe, responsible, and resilient
-                          adoption.</strong> Against the backdrop of Singapore's National AI Strategy
+                          adoption.</strong> Against the backdrop of Bangkok's National AI Strategy
                           2.0, our experts will discuss how organizations can leverage AI to
                           enhance security while mitigating its risks, shaping a secure and
                           adaptive future for enterprises and governmasents alike.</p>
@@ -44,7 +44,7 @@ function Abstract3Modal({show , handleClose}) {
 
                             <p className="mt-3">Join us for this thought-provoking discussion on how
                               platformization and AI will define the next era of application,
-                              security, and network modernization in Singapore and beyond.</p>
+                              security, and network modernization in Bangkok and beyond.</p>
                     </div>               
       </Modal.Body>
     </Modal>

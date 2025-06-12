@@ -9,7 +9,7 @@ function Speaker19Modal({show , handleClose}) {
         <Modal.Header closeButton></Modal.Header>
         <Modal.Body>
         <div className="sponsor-modal-info">
-            <p> Based in Singapore, <strong>Ben Munroe</strong>, VP of APAC Field Marketing at 
+            <p> Based in Bangkok, <strong>Ben Munroe</strong>, VP of APAC Field Marketing at 
               Cloudflare, brings 20+ years of global marketing experience from 
               roles including Cisco. He crafts impactful marketing strategies, 
               connecting innovation to customer results across the diverse APAC 

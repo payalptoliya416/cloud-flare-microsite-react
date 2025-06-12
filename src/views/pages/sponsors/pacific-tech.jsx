@@ -23,7 +23,6 @@ const PacificTech = () => {
         <div className="main">
         <section>
             <div className="micro-logo">
-                <img src="/assets/image/logoone.png" alt="" className="mx-auto micro-one"/>
                 <img src="/assets/image/logosec.png" alt="" className="mx-auto micro-sec"/>
                 <div className="back-btn">
                    <a href="/app/sponsors"><i className="bi bi-chevron-left "></i> Back</a> 
@@ -38,7 +37,7 @@ const PacificTech = () => {
                         services across ASEAN. With strong technical expertise and a 
                         vast partner network,we support top vendors like Cloudflare, 
                         Fortinet, Sophos, Thales, Keysight and more across 
-                        Singapore, Malaysia,Thailand, Indonesia and Cambodia.</p>
+                        Bangkok, Malaysia,Thailand, Indonesia and Cambodia.</p>
                     <h3 className="para-title">Featured  Highlights</h3>
 
                     <p className="para">Uncover risk and optimize your Cloudflare investment with 

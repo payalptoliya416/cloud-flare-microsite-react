@@ -27,7 +27,7 @@ const ImmerseBuilders = () => {
         <div className="main ">
         <section className="login-page">
           <div className="logo">
-            <img src="/assets/image/logo-sin.png" alt="" className="mx-auto logo-sec"/>
+            <img src="/assets/image/logosec.png" alt="" className="mx-auto logo-sec"/>
             <div className="back-btn">
               <a href="/app/immerse-main"><i className="bi bi-chevron-left "></i> Back</a>
            </div>

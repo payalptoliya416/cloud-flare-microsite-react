@@ -9,11 +9,6 @@ function Congratulation() {
         <section>
           <div className="passport-logo">
             <img
-              src="/assets/image/logoone.png"
-              alt=""
-              className="mx-auto micro-one"
-            />
-            <img
               src="/assets/image/logosec.png"
               alt=""
               className="mx-auto micro-sec"

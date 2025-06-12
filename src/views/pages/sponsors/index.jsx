@@ -27,7 +27,6 @@ const Sponsors = () => {
         <div className="main">
         <section>
             <div className="micro-logo">
-                <img src="/assets/image/logoone.png" alt="" className="mx-auto micro-one"/>
                 <img src="/assets/image/logosec.png" alt="" className="mx-auto micro-sec"/>
                 <div className="back-btn">
                    <a href="/app"><i className="bi bi-chevron-left "></i> Back</a> 

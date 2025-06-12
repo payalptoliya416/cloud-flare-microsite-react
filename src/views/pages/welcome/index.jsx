@@ -10,15 +10,15 @@ const urlParams = new URLSearchParams(queryString);
 const Welcome = () => {
     const navigate = useNavigate();
   
-    useEffect(()=>{
-        if(urlParams.get("q") == null){
-            navigate("/login")
-        }else if(getToken()){
-            navigate("/app")
-        }else{
-            checkPassport()
-        }
-    },[])
+    // useEffect(()=>{
+    //     if(urlParams.get("q") == null){
+    //         navigate("/login")
+    //     }else if(getToken()){
+    //         navigate("/app")
+    //     }else{
+    //         checkPassport()
+    //     }
+    // },[])
 
 
     const checkPassport = () =>{
@@ -61,14 +61,14 @@ const Welcome = () => {
                   <div className="wlc-detail">
                     <div className="wlc-image-box"> 
                         <div className="wlc-img">
-                            <img src="/assets/image/img-1.png" alt=""/>
+                            <img src="/assets/image/img-6.png" alt=""/>
                         </div>
                         <div className="image-box-detail">
                             <h1>Immerse<br />
                                 Singapore</h1>
-                            <p>24 April, 2025<br />
-                                8:00 AM - 5:45 PM<br />
-                                Pan Pacific</p>
+                            <p>18 June, 2025<br />
+                                9:30 AM - 5:45 PM<br />
+                                Hyatt Regency</p>
                             <a href="/app"><button className="gradiant-button"> Enter This Event <i className="bi bi-chevron-right"></i></button></a>
                         </div>
                     </div>
@@ -86,23 +86,26 @@ const Welcome = () => {
                     </div>
                     <div className="wlc-image-box"> 
                         <div className="wlc-img">
-                            <img src="/assets/image/img-1.png" alt=""/>
-                        </div>
-                        <div className="image-box-detail">
-                            <h1>Immerse<br />
-                                Bangkok</h1>
-                            <p>16 July, 2025</p>
-                            
-                        </div>
-                    </div>
-                    <div className="wlc-image-box"> 
-                        <div className="wlc-img">
-                            <img src="/assets/image/img-1.png" alt=""/>
+                            <img src="/assets/image/img-7.png" alt=""/>
                         </div>
                         <div className="image-box-detail">
                             <h1>Immerse<br />
                                 Manila</h1>
                             <p>Aug 14, 2025</p>
+                            
+                        </div>
+                    </div>
+                    <div className="wlc-image-title">
+                        <h3 className="gradiant-text">Past Events</h3>
+                    </div>
+                     <div className="wlc-image-box mb-5"> 
+                        <div className="wlc-img">
+                            <img src="/assets/image/img-1.png" alt=""/>
+                        </div>
+                        <div className="image-box-detail">
+                            <h1>Immerse<br />
+                                Bangkok</h1>
+                            <p>24 April, 2025</p>
                             
                         </div>
                     </div>

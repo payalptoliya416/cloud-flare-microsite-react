@@ -25,7 +25,7 @@ const CloudflarePavillion = () => {
         <div className="main ">
         <section className="login-page">
           <div className="logo">
-            <img src="/assets/image/logo-sin.png" alt="" className="mx-auto logo-sec"/>
+            <img src="/assets/image/logosec.png" alt="" className="mx-auto logo-sec"/>
             <div className="back-btn">
               <a href="/app/immerse-main"><i className="bi bi-chevron-left "></i> Back</a>
            </div>
@@ -37,10 +37,7 @@ const CloudflarePavillion = () => {
                     8:00AM - 5:00PM
                  </div>
                  <div class="name-title name-new-title">
-                  <h6><span class="gradiant-text">Clement Wong </span>
-                     <span class="pav-dashed"> | </span>
-                      <span class="gradiant-text">David Liu
-                      </span></h6>
+                  <h6><span class="gradiant-text">Clement Wong |<br/> Amirul Zharfan Bin Zalid | T.Y. Tan | Sarat Pornwichianwong | Tuangsith </span></h6>
                </div>
             </div>
             <div className="pavilion-box">

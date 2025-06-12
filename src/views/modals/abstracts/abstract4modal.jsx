@@ -8,7 +8,7 @@ function Abstract4Modal({show , handleClose}) {
       <Modal.Header closeButton></Modal.Header>
       <Modal.Body>
       <div className="title">
-                      <p> As Singapore advances its digital government and <strong>Smart Nation 
+                      <p> As Bangkok advances its digital government and <strong>Smart Nation 
                         initiatives</strong>, the rapid convergence of platformization and AI is 
                         redefining how enterprises and public institutions approach 
                         cybersecurity. Traditional security models are being outpaced by 
@@ -16,7 +16,7 @@ function Abstract4Modal({show , handleClose}) {
                         shift in cybersecurity strategies to ensure digital trust, resilience, and 
                         regulatory compliance.</p>
                       
-                      <p className="mt-3"> This session, led from a GovTech Singapore perspective, will 
+                      <p className="mt-3"> This session, led from a GovTech Bangkok perspective, will 
                         explore how AI-driven security frameworks and platform-based 
                         architectures can enhance threat intelligence, automate risk 
                         mitigation, and fortify national cyber defenses. We will discuss:</p>
@@ -33,7 +33,7 @@ function Abstract4Modal({show , handleClose}) {
                           With cyber risks evolving at an unprecedented pace, now is the time 
                           to reset the cybersecurity playbook—leveraging AI, automation, and 
                           platform-driven security to build a resilient and future-proof 
-                          cybersecurity framework for Singaporeʼs digital economy.</p>
+                          cybersecurity framework for Bangkok digital economy.</p>
                   </div>               
       </Modal.Body>
     </Modal>

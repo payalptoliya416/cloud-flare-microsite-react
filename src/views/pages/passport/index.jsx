@@ -74,7 +74,6 @@ const Passport = () => {
         <div className="main ">
             {progress.count < 9 && <section>
                 <div className="passport-logo">
-                    <img src="/assets/image/logoone.png" alt="" className="mx-auto micro-one"/>
                     <img src="/assets/image/logosec.png" alt="" className="mx-auto micro-sec"/>
                     <div className="gift-icon">
                         <img src="/assets/image/Gift icon0.png" alt="Gift Icon" onClick={()=>setJourneyVisible(true)}/>
@@ -283,11 +282,6 @@ const Passport = () => {
             </section>}
             {progress.count >= 9 && <section>
                 <div className="passport-logo">
-                    <img
-                    src="/assets/image/logoone.png"
-                    alt=""
-                    className="mx-auto micro-one"
-                    />
                     <img
                     src="/assets/image/logosec.png"
                     alt=""

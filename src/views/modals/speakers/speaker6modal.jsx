@@ -14,7 +14,7 @@ function Speaker6Modal({show , handleClose}) {
               A cybersecurity expert with a Master's in InfoComm Security, he 
               specializes in Zero Trust and network security. An accomplished 
               speaker and team leader, his prior roles at NCS and Singtel 
-              strengthened Singapore's public sector security infrastructure.
+              strengthened Bangkok's public sector security infrastructure.
             </p>
         </div>
         </Modal.Body>
