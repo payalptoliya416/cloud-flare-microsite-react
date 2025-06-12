@@ -133,8 +133,9 @@ const Main = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="up-error">
-                    <a href="#topnav" className="d-flex justify-content-end mt-2"><img src="/assets/image/top.png" alt=""/></a></div>
+                    <div className="d-flex justify-content-end">
+                    <a href="#topnav" className="up-error"><img src="/assets/image/top.png" alt=""/></a>
+                    </div>
             </div>
             </div>
             <Footer page="home" />
