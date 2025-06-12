@@ -2159,7 +2159,7 @@ footer {
     line-height: 18px;
   }
   .hack-safe-list li .custom-badge-box {
-    padding: 4px 15px;
+    padding: 6px 13px;
   }
   .hack-img-list .img-list-info .img-info-data p {
     font-size: 12px;
@@ -2177,9 +2177,6 @@ footer {
   .hack-safe-list li {
     font-size: 12px;
     line-height: 16px;
-  }
-  .hack-safe-list li .custom-badge-box {
-    padding: 1px 10px;
   }
   .hack-h3 {
     font-size: 20px;
@@ -3588,8 +3585,8 @@ footer {
   .login-page .action-buttons .btn{
     font-size: 14px;
     line-height: 18px;
-    width: 140px;
-    padding: 6px 0;
+    width: 144px;
+    padding: 11px 0;
   }
 }
 @media(max-width:375px){
@@ -3612,7 +3609,7 @@ footer {
   border: 2px solid transparent;
   border-radius: 20px;
   padding: 20px;
-  margin: 30px 0;
+  margin: 30px 20px;
   position: relative;
 }
 .gravstar-info .custom-badge-box{

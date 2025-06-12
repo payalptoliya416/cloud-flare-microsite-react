@@ -31,7 +31,7 @@ const ImmersePavillion = () => {
           <div className="container">
             <div className="top-lable">
                 <div className="custom-badge-box bg-warning text-white fw-bold">
-                    8:00AM - 5:00PM
+                    8:00AM - 5:45PM
                  </div>
                  <div class="name-title name-new-title">
                   <h6><span class="gradiant-text">Leela Kanakala | Dennis Goh | Siwat Tantikul | Nattie Wongnara

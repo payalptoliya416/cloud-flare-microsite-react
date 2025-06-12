@@ -64,7 +64,7 @@ const HackTheSafe = () => {
              <div className="agenda-box">
                             <div className="box-two row">
                                 <div className="col-7 pe-0">
-                                <div className="clock-div"><img src="/assets/image/Clock.png" alt=""/><p>09:00 AM - 9:20 AM </p></div>
+                                <div className="clock-div"><img src="/assets/image/Clock.png" alt=""/><p>10:45 AM - 11:05 AM </p></div>
                                 <p className="desc">Securing your AI apps / <br />
                                 workloads with Zero Trust </p>
                                 </div>
@@ -75,11 +75,11 @@ const HackTheSafe = () => {
              <div className="agenda-box">
                             <div className="box-two row">
                                 <div className="col-7 pe-0">
-                                <div className="clock-div"><img src="/assets/image/Clock.png" alt=""/><p>11:00 AM - 11:20 AM  </p></div>
+                                <div className="clock-div"><img src="/assets/image/Clock.png" alt=""/><p>12:50 AM - 1:10 AM  </p></div>
                                 <p className="desc">The Guardians of the Cloud: <br />
                                 Firewalls, Cloudy & Guardrails </p>
                                 </div>
-                                <div className="col-5"><h6>Claire Lim,</h6><p>Specialist Solutions  <br /> Engineer,<br/>Cloudflare ASEAN </p>
+                                <div className="col-5"><h6>Claire Lim,</h6><p>Specialist Solutions  <br /> Engineer,<br/>Cloudflare </p>
                                 </div>
                             </div>
                             </div>
