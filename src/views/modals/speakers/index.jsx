@@ -10,7 +10,7 @@ import Speaker9Modal from "./speaker9modal";
 import Speaker10Modal from "./speaker10modal";
 import Speaker11Modal from "./speaker11modal";
 import Speaker12Modal from "./speaker12modal";
-import Speaker13Modal from "./speaker13Modal";
+import Speaker13Modal from "./speaker13modal";
 import Speaker14Modal from "./speaker14Modal";
 import Speaker15Modal from "./speaker15Modal";
 import Speaker16Modal from "./speaker16Modal";
