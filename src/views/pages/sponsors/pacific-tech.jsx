@@ -31,7 +31,7 @@ const PacificTech = () => {
             <div className="sponsor-detail-ad">
                 <div className="container">
                   <h2>NTT Data</h2>
-                  <img src="/assets/image/sponsor-big.png" alt="" className="sponsor-logo-img"/>
+                  <img src="/assets/image/spon1.png" alt="" className="sponsor-logo-img"/>
                   <p className="para">NTT DATA is a $30B+ global innovator in business and
                         technology services, serving 75% of the Fortune Global 100.
                         With experts in 50+ countries, we deliver consulting, AI, digital
