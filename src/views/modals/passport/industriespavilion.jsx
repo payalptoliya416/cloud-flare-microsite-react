@@ -20,7 +20,7 @@ function IndustriesPavilionModal({show , handleClose}) {
             </div>
             <img src="/assets/image/IndustriesPavilio.png" alt="" className="black-img"/>
             <div className="checkbox-info">
-                <h3>Industries Pavilion- FS</h3>
+                <h3>Industries Pavilion- FSI</h3>
                 <div className='pavilion-model-icon'>
                   <img src="/assets/image/location.png" alt="" />
                   <span>Regency II</span>

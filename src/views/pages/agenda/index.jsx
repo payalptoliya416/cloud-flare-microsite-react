@@ -212,16 +212,15 @@ const Agenda = () => {
                             <div className="agenda-box show-modal-overlay">
                                 <div className="box-two row">
                                 <div className="col-8 pe-0">
-                                    <div className="clock-div"><img src="/assets/image/Clock.png" alt=""/><p>2:20 PM - 2:45 PM</p></div>
-                                    <p className="desc">Agentless, Effortless: Secure Contractor<br />
-                                    Access with Cloudflare One</p>
+                                    <div className="clock-div"><img src="/assets/image/Clock.png" alt=""/><p>1:50 PM - 2:20 PM</p></div>
+                                    <p className="desc">Three Paths to App Modernization:<br />
+                                    Rehost, Replatform, Refactor</p>
                                     
                                     <button type="button" onClick={()=>setAbstract6Visible(true)} className="abstact-btn"><img src="/assets/image/message.png" alt=""/><span>View Abstract</span></button>
                                     
                                 </div>
-                                    <div className="col-4"><h6>Leela Kanakala,</h6><p className="para-text">
-                                    Regional Senior <br /> Solutions Specialist, <br/>
-                                  Cloudflare APJC</p>
+                                    <div className="col-4"><h6>Pongpisit <br/>Laosuwanwat,</h6><p className="para-text">
+                                    Senior Solutions Engineer, <br /> Cloudflare Thailand</p>
                                     </div>
                                 </div>
                             </div>
@@ -229,9 +228,9 @@ const Agenda = () => {
                             <div className="agenda-box show-modal-overlay">
                                 <div className="box-two row">
                                 <div className="col-8 pe-0">
-                                    <div className="clock-div"><img src="/assets/image/Clock.png" alt=""/><p>2:40 PM - 3:10 PM</p></div>
-                                    <p className="desc">From VPN to Zero Trust:<br />
-                                    Fast-track your remote access projects</p>
+                                    <div className="clock-div"><img src="/assets/image/Clock.png" alt=""/><p>2:20 PM - 2:45 PM</p></div>
+                                    <p className="desc">Agentless, Effortless: Secure Contractor<br />
+                                    Access with Cloudflare One</p>
                                     
                                     <button type="button" onClick={()=>setAbstract7Visible(true)} className="abstact-btn"><img src="/assets/image/message.png" alt=""/><span>View Abstract</span></button>
                                     

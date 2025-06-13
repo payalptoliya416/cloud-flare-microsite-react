@@ -82,7 +82,7 @@ const Main = () => {
                         </a>
                         <a href="/app/passport" className="explore-tab-info">
                             <img src="/assets/image/Passport Program.png" alt=""/>
-                            <h3>My Cloudflare  <br/> Journey</h3>
+                            <h3>Passport  <br/> Program</h3>
                         </a>
                         
                     </div>

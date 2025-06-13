@@ -34,10 +34,10 @@ function Abstract7Modal({show , handleClose}) {
                    <p class="mt-3">Enforcing least-privilege access without network-level connectivity</p>
                    <p className='mt-3'>Practical use cases: time-limited access, device enforcement, and session logging</p>
                 <p className='mt-3'>Lessons from real deployments securing third-party access at scale</p>
-                <div className="pmt-3">Join us to learn how technical teams are modernizing contractor
+                <p className="mt-3">Join us to learn how technical teams are modernizing contractor
             access with Cloudflare Zero Trust—simplifying operations while
             strengthening security posture.
-            </div>  
+            </p>  
                     </div>    
       </Modal.Body>
     </Modal>

@@ -1403,6 +1403,10 @@ footer {
   font-weight: 500;
   margin-bottom: 3px;
 }
+.user-info .custm-h3{
+  font-size: 18px;
+  line-height: 22px;
+}
 .user-info p {
   font-size: 16px;
   line-height: 20px;
@@ -1422,10 +1426,11 @@ footer {
 }
 
 @media (max-width: 575px) {
-  .user-info h3 {
-    font-size: 20px;
-    line-height: 22px;
-  }
+
+  .user-info .custm-h3{
+  font-size: 16px;
+  line-height: 20px;
+}
   .user-info p {
     font-size: 14px;
     line-height: 16px;
@@ -1452,9 +1457,13 @@ footer {
     margin-bottom: 10px;
   }
   .user-info h3 {
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 12px;
+    line-height: 14px;
   }
+   .user-info .custm-h3{
+  font-size: 12px;
+  line-height: 14px;
+}
   .user-info .btn {
     padding: 2px 5px;
   }
@@ -1670,7 +1679,7 @@ footer {
     font-size: 13px;
   }
   .box-two h6 {
-    font-size: 12px;
+    font-size: 11px;
   }
   .abstact-btn {
     font-size: 12px;
@@ -1707,7 +1716,7 @@ footer {
 @media (max-width: 490px) {
   .box-two p,
   .clock-div p {
-    font-size: 11px;
+    font-size: 9px;
   }
   .clock-div img {
     width: 15px;
@@ -1733,12 +1742,11 @@ footer {
     padding-bottom: 19px;
   }
 
+.para-text{
+  font-size: 10px !important;
 }
-@media (max-width: 320px) {
-  .box-two h6 {
-    font-size: 12px;
-  }
 }
+
 
 /* model css end */
 
@@ -2157,7 +2165,7 @@ footer {
     line-height: 20px;
   }
   .agenda-detail-section {
-    padding: 40px 15px 30px;
+    padding: 40px 9px 30px;
   }
 }
 @media (max-width: 430px) {
@@ -2227,7 +2235,7 @@ footer {
     width: 15px;
   }
   .agenda-detail-section.builder-page .box-two p {
-    font-size: 9px;
+    /* font-size: 9px; */
   }
 }
 /* --end--- */
@@ -2399,7 +2407,10 @@ footer {
   margin: 40px auto;
   list-style: disc;
 }
-
+.text-fs{
+  font-size: 16px;
+  line-height: 22px;
+}
 .popup-list {
   list-style: none;
   padding: 0;
@@ -2665,6 +2676,10 @@ footer {
     width: 24px;
     height: 24px;
   }
+  .text-fs{
+  font-size: 14px;
+  line-height: 20px;
+}
 }
 
 @media (max-width: 390px) {
@@ -2776,7 +2791,7 @@ footer {
 
 @media (max-width: 490px) {
   .checkbox-info h3 {
-    font-size: 26px;
+    font-size: 22px;
     line-height: 28px;
   }
   .checkbox-info p {
@@ -2796,7 +2811,7 @@ footer {
 }
 @media (max-width: 430px) {
   .checkbox-info h3 {
-    font-size: 22px;
+    font-size: 18px;
     line-height: 24px;
     margin-bottom: 10px;
   }
@@ -2866,6 +2881,9 @@ footer {
   .booth-checkbox {
     gap: 9px;
   }
+  .booth-box{
+    gap: 6px;
+  }
 }
 @media (max-width: 430px) {
   .tab-section {
@@ -2913,6 +2931,9 @@ footer {
   }
   .find-link {
     font-size: 10px;
+  }
+   .booth-checkbox {
+    max-width: 90px;
   }
 }
 
@@ -3280,7 +3301,6 @@ footer {
 }
 .booth-checkbox {
   max-width: 130px;
-  width: 100%;
 }
 @media (max-width: 615px) {
   .newBox {
@@ -3299,7 +3319,6 @@ footer {
   }
   .booth-checkbox {
     width: 100%;
-    max-width: 114px;
   }
 }
 
@@ -3330,12 +3349,13 @@ footer {
   }
   .pavillion-description {
     margin-top: 22px;
-    font-size: 16px !important;
+    font-size: 15px !important;
     line-height: 22px !important;
   }
   .pavilion-model-icon img {
     max-width: 24px;
   }
+  
 }
 .pavilion-new-box {
   display: flex;

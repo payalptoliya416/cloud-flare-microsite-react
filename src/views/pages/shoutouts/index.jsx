@@ -34,7 +34,7 @@ const Shoutouts = () => {
                     <div className="all-sponsor-title mb-2"><h3>Gold Sponsor</h3></div>
 
                     <div className="sponsor-main-box">
-                        <div className="sponsor-inner-box mb-2 row align-items-center">
+                        <div className="sponsor-inner-box mb-3 row align-items-center">
                             <div className="sponsor-img col-4">
                                 <img src="/assets/image/spon1.png" alt=""/>
                             </div>
@@ -62,7 +62,7 @@ const Shoutouts = () => {
                                     <i className="bi bi-chevron-right"></i></a>
                             </div>
                         </div>
-                        <div className="sponsor-inner-box mb-2 row align-items-center">
+                        <div className="sponsor-inner-box mb-3 row align-items-center">
                             <div className="sponsor-img col-4">
                                 <img src="/assets/image/sponsoer3.png" alt=""/>
                             </div>
@@ -74,7 +74,7 @@ const Shoutouts = () => {
                                 <i className="bi bi-chevron-right"></i></a>
                             </div>
                         </div>
-                        <div className="sponsor-inner-box mb-2 row align-items-center">
+                        <div className="sponsor-inner-box mb-3 row align-items-center">
                             <div className="sponsor-img col-4">
                                 <img src="/assets/image/sponsoer4.png" alt=""/>
                             </div>

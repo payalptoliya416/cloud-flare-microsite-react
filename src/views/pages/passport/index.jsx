@@ -264,8 +264,7 @@ const Passport = () => {
                     </div></>}
                 </div>
             </section>}
-            <section>
-            {/* {progress.count >= 9 && <section> */}
+            {progress.count >= 9 && <section>
                 <div className="passport-logo">
                     <img
                     src="/assets/image/logosec.png"
@@ -322,8 +321,7 @@ const Passport = () => {
                     <br/>Closing Remark</strong>at our main stage!</p>
                     <p className="prize-limit"><sup>*</sup>Prizes are limited to attendees who are present during the lucky draw session.</p>
                 </div>
-            </section>
-            {/* </section>} */}
+            </section>}
             <Footer page="passport" />
         </div>
     )

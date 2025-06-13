@@ -123,7 +123,7 @@ const Speakers = () => {
                                     </div>
                                     <div className="user-info">
                                         <div>
-                                            <h3>Assoc. Prof. Cherdchai <br/>Nopmaneejumruslers,</h3>
+                                            <h3 className="custm-h3">Assoc. Prof. Cherdchai <br/>Nopmaneejumruslers,</h3>
                                             <p>Senior ProductM.D. Vice President for <br/> Information Technology<br/>and Digital Transformation, <br/>Mahidol University </p>
                                         </div>
                                         <button type="button" onClick={()=>setSpeaker5Visible(true)}  className="checkout-btn btn"><img src="/assets/image/message.png" alt="" className="me-1"/>  View Remarks </button>
@@ -235,7 +235,7 @@ const Speakers = () => {
                             <div className="col-4 mb-4">
                                 <div className="speaker-detail show-modal-overlay">
                                     <div className="speaker-user">
-                                        <img src="/assets/image/uver13.png" alt=""/>
+                                        <img src="/assets/image/user13.png" alt=""/>
                                     </div>
                                     <div className="user-info">
                                         <div>

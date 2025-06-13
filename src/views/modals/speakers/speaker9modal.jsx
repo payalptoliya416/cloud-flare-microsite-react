@@ -9,7 +9,7 @@ function Speaker9Modal({show , handleClose}) {
         <Modal.Header closeButton></Modal.Header>
         <Modal.Body>
         <div className="sponsor-modal-info">
-            <p><strong>Kritsada</strong>is AVP of Sales and Marketing at SoftDe'but, leading
+            <p><strong>Kritsada</strong> is AVP of Sales and Marketing at SoftDe'but, leading
             go-to-market strategies across security, performance, and edge
             solutions. Kritsada bridges technical value and business outcomes.
             aHe is key in driving Cloudflare's business, customer success,

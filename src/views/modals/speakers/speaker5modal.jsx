@@ -15,7 +15,7 @@ function Speaker5Modal({show , handleClose}) {
               internist, respiratory/sleep specialist, and EMBA holder, he leads
               Thailandʼs R2R initiative and advises on national health policy,
               HITAP, and NHSO committees, advancing evidence-based
-              healthcare innovatio  n.
+              healthcare innovation.
             </p>
         </div>
         </Modal.Body>

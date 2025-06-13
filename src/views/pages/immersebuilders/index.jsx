@@ -121,9 +121,7 @@ const ImmerseBuilders = () => {
                   <p className="desc">Seamless Integration of Cloudflare One<br />and Application Services for Modern Enterprises</p>
                   <button type="button" onClick={()=>setBuilder2Visible(true)} className="abstact-btn"><img src="/assets/image/message.png" alt=""/><span>View Abstract</span></button>
                 </div>
-                  <div className="col-4"><h6>Praveen
-                  John Kumar</h6><p>Lead Solutions Engineer,<br />
-                  Sumologic | TechDirect </p>
+                  <div className="col-4"><h6>Nattavut Meethong,</h6><p>nForce </p>
                   </div>
               </div>
             </div>

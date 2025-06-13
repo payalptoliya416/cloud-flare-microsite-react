@@ -16,7 +16,7 @@ function FirstWaveModal({show , handleClose}) {
         <Modal.Body>
         <div className="checkbox-pop">
             <div className="relative-img">
-                <img src="/assets/image/im8.png" alt="" style={{marginBottom:'-16px'}}/>
+                <img src="/assets/image/im8.png" alt="" style={{marginBottom:'-10px'}}/>
             </div>
             <img src="/assets/image/FirstWave.png" alt="" className="black-img"/>
             <div className="checkbox-info">
