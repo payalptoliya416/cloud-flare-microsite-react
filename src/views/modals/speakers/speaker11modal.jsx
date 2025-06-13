@@ -9,11 +9,9 @@ function Speaker11Modal({show , handleClose}) {
         <Modal.Header closeButton></Modal.Header>
         <Modal.Body>
         <div className="sponsor-modal-info">
-            <p><strong> Edwin Wong </strong> is a Specialist Solutions Engineer at Cloudflare, 
-              specializing in SASE solutions across ASEAN and GCR. With 
-              experience supporting businesses of all sizes, he helps 
-              organizations enhance security, without compromising on 
-              performance or reliability.
+            <p>Solution Consultant specializing in cybersecurity and SASE
+            solutions at a leading systems integrator in Thailand. Experienced in
+            designing secure and scalable architectures for enterprise clients.
             </p>
         </div>
         </Modal.Body>

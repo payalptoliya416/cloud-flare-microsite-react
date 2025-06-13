@@ -9,12 +9,13 @@ function Speaker3Modal({show , handleClose}) {
         <Modal.Header closeButton></Modal.Header>
         <Modal.Body>
         <div className="sponsor-modal-info">
-            <p><strong>James Allworth, </strong> Head of Innovation at Cloudare, is a leading 
-              strategist and author, known for co-authoring "How Will You Measure 
-              Your Life?". 1  He advises on innovation and drives Cloudare's 
-              future-focused initiatives for a more secure and resilient internet, 
-              helping global organizations navigate the evolving landscape of AI 
-              and digital threats.
+            <p><strong>Harman Nagra </strong> leads Cloudflareʼs APJC Specialist & Architecture
+        pre-sales team. With 20+ years in IT, Harman excels in leadership,
+        network/security architecture, and pre-sales. Holding a master's
+        from Charles Sturt University and multiple certifications, Harman
+        has worked at Palo Alto Networks, VMware, and Fortinet.
+        Passionate about cybersecurity, Harman has been at Cloudflare
+        for 3 years.
             </p>
         </div>
         </Modal.Body>

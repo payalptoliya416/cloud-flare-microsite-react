@@ -9,11 +9,9 @@ function Speaker10Modal({show , handleClose}) {
         <Modal.Header closeButton></Modal.Header>
         <Modal.Body>
         <div className="sponsor-modal-info">
-            <p><strong>Pramod Rane </strong>is a Senior Solutions Engineer at Cloudflare, where 
-              he helps organizations architect secure, scalable, and resilient 
-              network solution. With deep expertise in Cloud infrastructure and 
-              performance optimization, Pramod works closely with clients to 
-              enhance their digital environments.
+            <p>Solution consultant specializing in cybersecurity and Cloudflare
+            solutions at a leading SI company in Thailand. Experienced in
+            designing secure, scalable architectures for clients.
             </p>
         </div>
         </Modal.Body>

@@ -8,40 +8,51 @@ function Abstract10Modal({show , handleClose}) {
       <Modal.Header closeButton></Modal.Header>
       <Modal.Body>
       <div class="title">
-                      <p> As enterprises embrace AI-driven digital transformation, traditional 
-                        network security approaches are no longer sufficient. AI-driven 
-                        applications demand ultra-low latency, high availability, and 
-                        real-time security, requiring a modernized firewall strategy that 
-                        goes beyond conventional perimeter defenses.</p>
+                      <p> In highly regulated industries such as
+                          <strong>Public Sector, Banking &
+                          Financial Services, and Healthcare</strong>
+                          , resilience and uptime are
+                          non-negotiable. However, achieving high availability, security, and
+                          performance in a multi-vendor, multi-cloud environment presents
+                          unique challenges—ranging from interoperability concerns to
+                          managing diverse security postures.</p>
                       
-                      <p class="mt-3">In this session, weʼll explore:</p>
+                      <p class="mt-3">Join Cloudflareʼs experts at Immerse as we unpack real-world
+                multi-vendor architectures and demonstrate how Cloudflare
+                Application Services seamlessly integrate into diverse technology
+                stacks to drive resilience, performance, and compliance.</p>
   
-                      <p class="mt-1"><strong> - The Evolution of Firewalls  </strong>- How AI is redefining firewall 
-                        capabilities beyond traditional packet filtering and intrusion 
-                        detection.</p>
+                      <p class="mt-1">Key Takeaways:</p>
   
-                      <p class="mt-3"><strong> - Adaptive AI-Powered Security </strong>- Leveraging machine 
-                        learning-driven threat detection to automatically identify and 
-                        mitigate sophisticated attacks.</p>
+                      <p class="mt-3"><strong> - Multi-Vendor Architectures for Enterprise Resilience </strong>- Explore
+                      how leading organizations design redundancy and failover
+                      strategies using a multi-cloud, multi-CDN, and multi-security
+                      vendor approach.</p>
 
-                      <p class="mt-3"><strong> - Scalability & Performance </strong> - How Cloudflareʼs AI-native firewall 
-                        architecture enhances protection without compromising network 
-                        speed.</p>
+                      <p class="mt-3"><strong> - Enhancing Performance Across Distributed Environments </strong> - Learn how Cloudflareʼs intelligent traffic steering, dynamic load
+                    balancing, and adaptive routing ensure optimal application
+                    performance across AWS, Azure, GCP, and on-prem environments</p>
 
-                      <p class="mt-3"><strong>- Zero Trust & SASE Integration</strong> - Embedding firewall security into 
-                        a single-vendor SASE architecture for seamless enforcement 
-                        across users, apps, and data.</p> 
+                      <p class="mt-3"><strong>- Security Without Silos</strong>- Discover how Cloudflareʼs API Gateway,
+                    DDoS protection, and Web Application Firewall (WAF) integrate with
+                    third-party security solutions to enhance threat detection and
+                    response without vendor lock-in.</p> 
 
-                      <p class="mt-3"><strong>- Real-World Use Cases </strong>- How leading enterprises are 
-                        modernizing their network security strategy to stay ahead of 
-                        evolving threats.</p> 
+                      <p class="mt-3"><strong>- Optimizing Cost and Latency at Scale</strong>- See how organizations
+                      reduce infrastructure costs while improving speed and reliability
+                      through Cloudflareʼs smart caching, global edge network, and
+                      Anycast architecture</p> 
 
+                      <p class="mt-3"><strong>- Case Studies from Regulated Industries</strong>- Gain insights into how
+                    public sector agencies, financial institutions, and healthcare
+                    organizations are leveraging multi-vendor strategies to meet
+                    compliance, security, and uptime demands.</p> 
 
-                      <p class="mt-3">
-                      Discover how Cloudflareʼs next-gen firewall solutions enable 
-                        organizations to modernize network security, safeguard AI 
-                        workloads, and accelerate innovation—without complexity.
-                      </p>
+                      <p className="mt-3">Whether youʼre looking to future-proof your IT strategy, enhance
+                  redundancy, or optimize multi-cloud deployments, this session will
+                  provide a blueprint for success. Join us at Immerse to explore how
+                  Cloudflare empowers enterprises to maximize reliability and uptime
+                  without compromising security or agility</p>
   
                   </div>
       </Modal.Body>

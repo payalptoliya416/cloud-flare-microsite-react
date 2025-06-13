@@ -9,12 +9,12 @@ function Speaker13Modal({show , handleClose}) {
         <Modal.Header closeButton></Modal.Header>
         <Modal.Body>
         <div className="sponsor-modal-info">
-            <p><strong> Kevin Ng </strong> is a global tech leader with 20+ years' experience 
-              building products and engineering teams.He holds First Class 
-              Honours and MSc in Computer Science from NUS.As GovTech's 
-              Senior Director of Core Engineering Products, he drives GCC, SGTS 
-              and GDP initiatives including SHIP-HATS. Formerly at Expedia, he 
-              transformed systems into cloud-native AI platforms.
+            <p>Experienced IT professional with 20+ years in banking and ISP
+            industries. Expertise in infrastructure, network/security
+            architecture, system integration, and IT operations. Proven leader
+            in complex projects, improving reliability, and aligning IT with
+            business objectives. Currently heads IT infrastructure at
+            Cambodiaʼs largest bank.
             </p>
         </div>
         </Modal.Body>

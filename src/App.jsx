@@ -18,6 +18,7 @@
   import Axios from 'axios';
   import Congratulation from './views/pages/congratulation/Congratulation';
   import Registration from './views/pages/registration';
+import SoftDebut from './views/pages/sponsors/soft-debut';
 
   const token = getToken()
   if (token) {
@@ -64,6 +65,7 @@
           <Route exact path="/app/immerse-pavillion" name="Pavillion" element={<ImmersePavillion />} />
           <Route exact path="/app/sponsors/pacific-tech" name="SponsorsPacificTech" element={<PacificTech />} />
           <Route exact path="/app/sponsors/sumo-logic" name="SponsorsSumoLogic" element={<SumoLogic />} />
+          <Route exact path="/app/sponsors/soft-debut" name="SponsorsSoftDebut" element={<SoftDebut />} />
           <Route exact path="/app/sponsors/westcon" name="SponsorsWestcon" element={<Westcon />} />
           <Route exact path="/app/passport/congratulation" name="Congras" element={<Congratulation />} />
           <Route exact path="/app/sponsors" name="Sponsors" element={<Sponsors />} />

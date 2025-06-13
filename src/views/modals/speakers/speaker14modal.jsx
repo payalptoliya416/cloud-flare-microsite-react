@@ -9,12 +9,12 @@ function Speaker14Modal({show , handleClose}) {
         <Modal.Header closeButton></Modal.Header>
         <Modal.Body>
         <div className="sponsor-modal-info">
-            <p><strong>Calvin </strong> iheads CSA's Cybersecurity Programme Centre, securing 
-              strategic systems through secure design and emerging tech like 
-              AI, 5G, and blockchain. He co-developed Bangkokʼs 
-              cybersecurity R&D hubs and led COVID-19 system assurance, 
-              earning the Public Administration Medal (Bronze). Actively involved 
-              in social services, he chairs Allkin Bangkokʼs ICT Committee.
+            <p><strong>Amirul Zharfan Zalid </strong> is a Technical Validation Engineer at
+        Cloudflare, blending 8+ years of software expertise with strategic
+        presales skills. He specializes in crafting impactful POCs and demos,
+        translating complex tech into business value. Passionate about AI
+        and serverless solutions, he automates workflows and leverages
+        Cloudflareʼs ecosystem to drive innovation for global clients
             </p>
         </div>
         </Modal.Body>

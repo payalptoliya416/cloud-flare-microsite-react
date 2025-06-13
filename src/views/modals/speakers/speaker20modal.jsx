@@ -9,12 +9,12 @@ function Speaker18Modal({show , handleClose}) {
         <Modal.Header closeButton></Modal.Header>
         <Modal.Body>
         <div className="sponsor-modal-info">
-            <p><strong>Elton Chew</strong>  leads the Solutions Engineering team of Cloudflare 
-            across Asia Pacific, Japan and China. His team  owns the charter of 
-            helping customers gain accelerated business advantages by 
-            leveraging Cloudflareʼs global network and services. Based in 
-            Bangkok, Elton has over 25 years of technical services experience 
-            in the region.
+            <p><strong>Chatchawat Asawarakwong </strong>  is Group CISO of KASIKORNBANK
+            and Vice Chairman of TB-CERT, with 20+ years in banking
+            IT/cybersecurity. Formerly Head of Information Security at a
+            regional Thai bank and IT Security Consultant at a Big4 firm in
+            Thailand and the U.S. Extensive expertise in security management
+            and consulting  
             </p>
         </div>
         </Modal.Body>

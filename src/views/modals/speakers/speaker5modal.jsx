@@ -9,12 +9,13 @@ function Speaker5Modal({show , handleClose}) {
         <Modal.Header closeButton></Modal.Header>
         <Modal.Body>
         <div className="sponsor-modal-info">
-            <p><strong>David Liu</strong> is a Senior Product Marketing Manager at Cloudflare, 
-                leading GTM for Generative AI solutions. With 9+ years in Gen 
-                AI & SaaS marketing, he drives revenue growth through 
-                strategic campaigns, digital ads, and cross-functional 
-                collaboration. His expertise in B2B strategies has generated 
-                $1M+ in under 6 months.
+            <p><strong>Assoc. Prof. Cherdchai Nopmaneejumruslers, M.D.</strong>is VP for IT
+              & Digital Transformation at Mahidol University, driving digital
+              integration in healthcare and education. A board-certified
+              internist, respiratory/sleep specialist, and EMBA holder, he leads
+              Thailandʼs R2R initiative and advises on national health policy,
+              HITAP, and NHSO committees, advancing evidence-based
+              healthcare innovatio  n.
             </p>
         </div>
         </Modal.Body>

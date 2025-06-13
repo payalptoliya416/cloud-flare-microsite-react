@@ -9,12 +9,12 @@ function Speaker1Modal({show , handleClose}) {
         <Modal.Header closeButton></Modal.Header>
         <Modal.Body>
         <div className="sponsor-modal-info">
-            <p><strong>Goran Risticevic</strong> VP of APAC at Cloudflare, brings 20+ years of 
-                leadership from AWS, IBM, and NetApp. Based in Sydney since 
-                joining in 2022, he leads Customer Success and Services, 
-                supporting APAC's digital economies. He empowers organizations 
-                to navigate cyber threats and accelerate secure digital 
-                transformation across Cloudflare's extensive regional network.
+            <p><strong>Clement Wong</strong> is Head of Solutions Architect & COE at Cloudflare
+          APAC, leading technical strategy to secure and optimize digital
+          transformation. With expertise in multi-cloud security and
+          architecture, he helps enterprises build resilient systems. Previously
+          at VMware, he drove multi-cloud adoption as Director of Solutions
+          Architecture. A sought-after speaker on cloud and security trends.
             </p>
         </div>
         </Modal.Body>

@@ -23,7 +23,7 @@ function IndustriesPavilionModal({show , handleClose}) {
                 <h3>Industries Pavilion- FS</h3>
                 <div className='pavilion-model-icon'>
                   <img src="/assets/image/location.png" alt="" />
-                  <span> Pacific Ballroom 1</span>
+                  <span>Regency II</span>
                 </div>
                 <p className='pavillion-description'>Present your QR code to the booth
                 representative to complete this visit</p>

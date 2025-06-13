@@ -10,13 +10,15 @@ function Sponsor2Modal({show , handleClose}) {
         <Modal.Body>
         <div className="sponsor-modal-info">
                         <h3>
-                            MCI (Master Concept)
+                            YIP IN TSOI
                         </h3>
-                    <p>Master Concept is the ASDP of Application and Zero Trust Security. 
-                        We deliver a comprehensive range of security services and operate 
-                        as both an MSP and MSSP. With over 20 years of experience, we 
-                        provide end-to-end tech advisory solutions to help clients establish 
-                        the best security environment for their systems.</p>
+                    <p>YIP IN TSOI & CO., LTD. delivers comprehensive high-technology
+                      solutions, including cloud modernization, cybersecurity, digital
+                      business, data analytics, professional services, and consulting.
+                      With a strong track record, we serve diverse industries such as
+                      finance, banking, communication, and navigation, helping clients
+                      achieve operational excellence and digital transformation
+                      across all sectors.</p>
                     </div>
         </Modal.Body>
       </Modal>

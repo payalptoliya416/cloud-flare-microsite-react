@@ -53,135 +53,76 @@ const News = () => {
                             <div className="col-4">
                                 <div className="sponsor-col">
                                    <div className="sponsor-col-img">
-                                       <img src="/assets/image/sponsour4.png" alt=""/>
+                                       <img src="/assets/image/spon1.png" alt=""/>
                                    </div>
                                    <div className="sponsor-col-data">
                                        <div>
-                                           <h3>Pacific Tech</h3>
-                                           <p>Gold Sponsor</p>
+                                           <h3>NTT Data</h3>
+                                           <p>Platinum Sponsor</p>
                                        </div>
-                                     <a href="/app/sponsors/pacific-tech"><button className="gradiant-button btn"> View Full Profile
-                                     <i className="bi bi-chevron-right"></i></button></a>
+                                     <a href="/app/sponsors/pacific-tech"><button className="gradiant-button btn"> View Full Profile<i className="bi bi-chevron-right"></i></button></a>
                                    </div>
                                 </div>
                             </div>
                              <div className="col-4">
                                  <div className="sponsor-col">
                                     <div className="sponsor-col-img">
-                                        <img src="/assets/image/sumo-logic.png" alt=""/>
+                                        <img src="/assets/image/spon2.png" alt=""/>
                                     </div>
                                     <div className="sponsor-col-data">
                                         <div>
-                                            <h3>Sumo Logic | TechDirect</h3>
+                                            <h3>nForce Secure</h3>
                                             <p>Gold Sponsor</p>
                                         </div>
-                                      <a href="/app/sponsors/sumo-logic"><button className="gradiant-button btn"> View Full Profile
-                                      <i className="bi bi-chevron-right"></i></button></a>
+                                      <a href="/app/sponsors/sumo-logic"><button className="gradiant-button btn"> View Full Profile<i className="bi bi-chevron-right"></i></button></a>
                                     </div>
                                  </div>
                              </div>
                              <div className="col-4">
-                                 <div className="sponsor-col">
+                             <div className="sponsor-col">
                                     <div className="sponsor-col-img">
-                                        <img src="/assets/image/westcon-logo.png" alt=""/>
+                                        <img src="/assets/image/spon3.png" alt=""/>
                                     </div>
                                     <div className="sponsor-col-data">
                                         <div>
-                                            <h3>Westcon</h3>
-                                            <p>AI-Accelerator Sponsor</p>
+                                            <h3>Pacific Tech</h3>
+                                            <p>Gold Sponsor</p>
                                         </div>
-                                      <a href="/app/sponsors/westcon"><button className="gradiant-button btn"> View Full Profile
-                                      <i className="bi bi-chevron-right"></i></button></a>
+                                      <a href="/app/sponsors/westcon"><button className="gradiant-button btn"> View Full Profile<i className="bi bi-chevron-right"></i></button></a>
                                     </div>
                                  </div>
                              </div>
-                             {/* <div className="col-4">
-                                 <div className="sponsor-col">
-                                    <div className="sponsor-col-img">
-                                        <img src="/assets/image/sponsor-cloud.png" alt=""/>
-                                    </div>
-                                    <div className="sponsor-col-data">
-                                       <div>
-                                        <h3>Sponsor</h3>
-                                        <p>Gold Sponsor</p>
-                                    </div>
-                                      <a href="/app/sponsors/pacific-tech"><button className="gradiant-button btn"> View Details<i className="bi bi-chevron-right"></i></button></a>
-                                    </div>
-                                 </div>
-                             </div>
+                          
                              <div className="col-4">
-                                 <div className="sponsor-col">
-                                    <div className="sponsor-col-img gray-img">
-                                        <img src="/assets/image/sponsour3.png" alt=""/>
+                                  <div className="sponsor-col show-modal-overlay">
+                                    <div className="sponsor-col-img">
+                                        <img src="/assets/image/spon4.png" alt=""/>
                                     </div>
                                     <div className="sponsor-col-data">
                                         <div>
-                                            <h3>Sponsor</h3>
-                                            <p>AI-Accelerator Sponsor</p>
+                                            <h2>SoftDe'but </h2>
+                                            <p>Gold Sponsor</p>
                                         </div>
-                                      <a href="/app/sponsors/pacific-tech"><button className="gradiant-button btn"> View Details<i className="bi bi-chevron-right"></i></button></a>
-                                    </div>
-                                 </div>
-                             </div> */}
-                             <div className="col-4">
-                                 <div className="sponsor-col show-modal-overlay">
-                                    <div className="sponsor-col-img">
-                                        <img src="/assets/image/sponsour1.png" alt=""/>
-                                    </div>
-                                    <div className="sponsor-col-data">
-                                        <div>
-                                            <h2>First Wave Technology Pte. Ltd. </h2>
-                                            <p>Bronze Sponsor</p>
-                                        </div>
-                                      <button type="button" onClick={()=>setSponsor1Visible(true)} className="checkout-btn btn"><img src="/assets/image/message.png" alt="" className="me-1"/>  View Remarks </button>
+                                       <a href="/app/sponsors/soft-debut"><button className="gradiant-button btn"> View Full Profile<i className="bi bi-chevron-right"></i></button></a>
                                     </div>
                                  </div>
                                    
                              </div>
                              <div className="col-4">
-                                 <div className="sponsor-col show-modal-overlay" >
+                                    <div className="sponsor-col show-modal-overlay" >
                                     <div className="sponsor-col-img">
-                                        <img src="/assets/image/master concept.png" alt=""/>
+                                        <img src="/assets/image/spon5.png" alt=""/>
                                     </div>
                                     <div className="sponsor-col-data">
                                         <div>
-                                            <h2>MCI (Master Concept)</h2>
+                                            <h2>YIP IN TSOI</h2>
                                             <p>Bronze Sponsor</p>
                                         </div>
                                        <button type="button" onClick={()=>setSponsor2Visible(true)} className="checkout-btn btn"><img src="/assets/image/message.png" alt="" className="me-1"/>  View Remarks </button>
                                     </div>
                                  </div>
                              </div>
-                             {/* <div className="col-4">
-                                 <div className="sponsor-col show-modal-overlay">
-                                    <div className="sponsor-col-img gray-img">
-                                        <img src="/assets/image/sponsour3.png" alt=""/>
-                                    </div>
-                                    <div className="sponsor-col-data">
-                                        <div>
-                                            <h3>Sponsor </h3>
-                                            <p>Bronze Sponsor</p>
-                                        </div>
-                                      <button type="button" onClick={()=>setSponsor3Visible(true)} className="checkout-btn btn"><img src="/assets/image/message.png" alt="" className="me-1"/>  View Remarks </button>
-                                    </div>
-                                  
-                                 </div>
-                             </div>
-                             <div className="col-4">
-                                 <div className="sponsor-col show-modal-overlay">
-                                    <div className="sponsor-col-img">
-                                        <img src="/assets/image/sponsor-cloud.png" alt=""/>
-                                    </div>
-                                    <div className="sponsor-col-data">
-                                        <div>
-                                            <h3>Sponsor </h3>
-                                            <p>Bronze Sponsor</p>
-                                        </div>
-                                      <button type="button" onClick={()=>setSponsor4Visible(true)} className="checkout-btn btn"><img src="/assets/image/message.png" alt="" className="me-1"/>  View Remarks </button>
-                                    </div>
-                                    
-                                 </div>
-                             </div> */}
+                            
                         </div>
                 </div>
             </div>

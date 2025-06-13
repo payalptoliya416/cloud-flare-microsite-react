@@ -9,12 +9,17 @@ import { useNavigate } from "react-router-dom";
 import Footer from "../../components/footer";
 import Builder1Modal from "../../modals/builders/builder1modal";
 import Builder2Modal from "../../modals/builders/builder2modal";
+import Builder3Modal from "../../modals/builders/builder3modal";
+import Builder4Modal from "../../modals/builders/builder4modal";
 
 
 const ImmerseBuilders = () => {
-    const navigate = useNavigate();
+     const navigate = useNavigate();
+    const [page , setPage] = useState(1);
     const [builder1Visible, setBuilder1Visible] = useState(false);
     const [builder2Visible, setBuilder2Visible] = useState(false);
+    const [builder3Visible, setBuilder3Visible] = useState(false);
+    const [builder4Visible, setBuilder4Visible] = useState(false);
 
     useEffect(()=>{
         if(getToken() == null){
@@ -22,6 +27,15 @@ const ImmerseBuilders = () => {
             navigate("/login")
         }
     },[])
+      const togglePage = (_page) => {
+        if (_page === "p" && page > 1) {
+          setPage(prev => prev - 1);
+        } else if (_page === "n" && page < 2) {
+          setPage(prev => prev + 1);
+        } else if (typeof _page === "number") {
+          setPage(_page);
+        }
+      };
 
     return (
         <div className="main ">
@@ -35,12 +49,28 @@ const ImmerseBuilders = () => {
 
           <div className="container">
             <h2 className="builder-title-grad"><span className="gradiant-text">Immerse Builders' Series</span> </h2>
-            <h6 className="builder-short-des">Short Description</h6>
             <h3 className="builder-agenda-title">Agenda</h3>
           <div className="builder-page agenda-detail-section ">
-            
+              {page == 1 &&
           <div className="agenda-deatail">
           
+            <div className="agenda-box">
+              <div className="box-two row">
+                <div className="col-8 pe-0">
+                  <div className="clock-div">
+                    <div className="clock-inner-div">
+                      <img src="/assets/image/Clock.png" alt=""/><p>8:30 AM - 08:50 AM</p>
+                    </div>
+                    <div className="clock-inner-div">
+                      <img src="/assets/image/location.png" alt=""/><p>Regency |</p>
+                    </div>
+                  </div>
+                  <p className="desc">Pacific Tech APAC Distributor <br/> and Cyber Security</p>
+                </div>
+                  <div className="col-4"><h6>Paramet <br/>Keeratichairitnara,</h6><p>Country Manager,<br /> Pacific Tech </p>
+                  </div>
+              </div>
+            </div>
             <div className="agenda-box">
               <div className="box-two row">
                 <div className="col-8 pe-0">
@@ -49,33 +79,13 @@ const ImmerseBuilders = () => {
                       <img src="/assets/image/Clock.png" alt=""/><p>8:50 AM - 09:10 AM</p>
                     </div>
                     <div className="clock-inner-div">
-                      <img src="/assets/image/location.png" alt=""/><p>Ballroom 3 Foyer</p>
+                      <img src="/assets/image/location.png" alt=""/><p>Regency |</p>
                     </div>
                   </div>
-                  <p className="desc">Protecting acmecorp. Work with ease</p>
+                  <p className="desc">Application Security</p>
                 </div>
-                  <div className="col-4"><h6>Sze Rong Tham</h6><p>Solution Engineer,<br />
-                    Cloudflare ASEAN </p>
-                  </div>
-              </div>
-            </div>
-
-            <div className="agenda-box">
-              <div className="box-two row">
-                <div className="col-8 pe-0">
-                  <div className="clock-div">
-                    <div className="clock-inner-div">
-                      <img src="/assets/image/Clock.png" alt=""/><p>9:00 AM - 09:30 AM</p>
-                    </div>
-                    <div className="clock-inner-div">
-                      <img src="/assets/image/location.png" alt=""/><p>Ballroom 3 Foyer</p>
-                    </div>
-                  </div>
-                  <p className="desc">Cloudflare Health a heck pb<br />Cyntra AIʼs Deep Scan: Rethinking the<br />Cloudflare Health Check Experience</p>
-                  <button type="button" onClick={()=>setBuilder2Visible(true)} className="abstact-btn"><img src="/assets/image/message.png" alt=""/><span>View Abstract</span></button>
-                </div>
-                  <div className="col-4"><h6>Nima Saraf,</h6><p>VP Sales and Services,<br />
-                    Pacific Tech </p>
+                  <div className="col-4"><h6>Anh Luu,</h6><p>Regional Solutions Engineer,<br />
+                   Cloudflare Philippines <br/>and Vietnam </p>
                   </div>
               </div>
             </div>
@@ -84,32 +94,32 @@ const ImmerseBuilders = () => {
                 <div className="col-8 pe-0">
                   <div className="clock-div">
                     <div className="clock-inner-div">
-                      <img src="/assets/image/Clock.png" alt=""/><p>11:00 AM - 11:20 AM</p>
+                      <img src="/assets/image/Clock.png" alt=""/><p>09:10 AM - 9:30 AM</p>
                     </div>
                     <div className="clock-inner-div">
-                      <img src="/assets/image/location.png" alt=""/><p>Ballroom 3 Foyer</p>
+                      <img src="/assets/image/location.png" alt=""/><p>Regency I</p>
                     </div>
                   </div>
-                  <p className="desc">Acmecorp: journey to Zero Trust</p>
-                </div>
-                  <div className="col-4"><h6>Edwin Wong</h6><p>Specialist Solutions<br />
-                    Engineer (Zero Trust)<br />Cloudflare </p>
-                  </div>
-              </div>
-            </div>
-            <div className="agenda-box">
-              <div className="box-two row">
-                <div className="col-8 pe-0">
-                  <div className="clock-div">
-                    <div className="clock-inner-div">
-                      <img src="/assets/image/Clock.png" alt=""/><p>12:50 AM - 01:10 PM</p>
-                    </div>
-                    <div className="clock-inner-div">
-                      <img src="/assets/image/location.png" alt=""/><p>Ballroom 3 Foyer</p>
-                    </div>
-                  </div>
-                  <p className="desc">Optimizing Performance and Security:<br />Unlocking End-to-End Insights with Cloudflare<br />and Sumo Logic</p>
+                  <p className="desc">API Security</p>
                   <button type="button" onClick={()=>setBuilder1Visible(true)} className="abstact-btn"><img src="/assets/image/message.png" alt=""/><span>View Abstract</span></button>
+                </div>
+                  <div className="col-4"><h6>Parkpoom <br/>Pornpratanwech,</h6><p>  Senior Associate<br />Technical Architect, <br/>NTT Data </p>
+                  </div>
+              </div>
+            </div>
+            <div className="agenda-box">
+              <div className="box-two row">
+                <div className="col-8 pe-0">
+                  <div className="clock-div">
+                    <div className="clock-inner-div">
+                      <img src="/assets/image/Clock.png" alt=""/><p>10:45 AM - 11:05 AM</p>
+                    </div>
+                    <div className="clock-inner-div">
+                      <img src="/assets/image/location.png" alt=""/><p>Regency I</p>
+                    </div>
+                  </div>
+                  <p className="desc">Seamless Integration of Cloudflare One<br />and Application Services for Modern Enterprises</p>
+                  <button type="button" onClick={()=>setBuilder2Visible(true)} className="abstact-btn"><img src="/assets/image/message.png" alt=""/><span>View Abstract</span></button>
                 </div>
                   <div className="col-4"><h6>Praveen
                   John Kumar</h6><p>Lead Solutions Engineer,<br />
@@ -117,67 +127,127 @@ const ImmerseBuilders = () => {
                   </div>
               </div>
             </div>
-           
               <div className="agenda-box">
                 <div className="box-two row">
                   <div className="col-8 pe-0">
                     <div className="clock-div">
                       <div className="clock-inner-div">
-                        <img src="/assets/image/Clock.png" alt=""/><p>1:10 PM - 1:30 PM</p>
+                        <img src="/assets/image/Clock.png" alt=""/><p>12:40 PM - 1:00 PM</p>
                       </div>
                       <div className="clock-inner-div">
-                        <img src="/assets/image/location.png" alt=""/><p>Ballroom 3 Foyer</p>
+                        <img src="/assets/image/location.png" alt=""/><p>Regency I</p>
                       </div>
                     </div>
-                    <p className="desc">Less Complexity, More Connectivity - <br />
-                      Branch Connectivity Made Easy
-                    </p>
+                    <p className="desc">Journey to Zero Trust </p>
                       
       
                   </div>
-                    <div className="col-4"><h6>Edwin Wong</h6><p>Specialist Solution<br />
-                          Engineer (Zero Trust), <br />
-                          Cloudflare<br /></p>
-                                
-                          <div className="mt-1"><p><strong style={{fontWeight: 600}}>Dennis Goh<br /></strong>Principal Solutions Architect,<br />
-                            Cloudflare APAC<br /></p>
-                          </div>
+                    <div className="col-4"><h6>Leela Kanakala,</h6><p>Regional Senior<br />
+                         Solutions Specialist, <br /> Cloudflare APJC<br /></p>
                     </div>
                 </div>
               </div>
-           
-            
               <div className="agenda-box">
                 <div className="box-two row">
                   <div className="col-8 pe-0">
                     <div className="clock-div">
                       <div className="clock-inner-div">
-                        <img src="/assets/image/Clock.png" alt=""/><p>4:50 PM - 5:10 PM</p>
+                        <img src="/assets/image/Clock.png" alt=""/><p>1:00 PM - 1:20 PM</p>
                       </div>
                       <div className="clock-inner-div">
-                        <img src="/assets/image/location.png" alt=""/><p>Ballroom 3 Foyer</p>
+                        <img src="/assets/image/location.png" alt=""/><p>Regency |</p>
                       </div>
                     </div>
-                    <p className="desc">Oops-Proof or Just Hoping for the Best?<br />
-                      Are You Protected Against DDoS?
-                    </p>
-                      {/* <button type="button" onClick={()=>setBuilder1Visible(true)} className="abstact-btn"><img src="/assets/image/message.png" alt=""/><span>View Abstract</span></button> */}
+                    <p className="desc">Onboarding Zero Trust with Cloudflare WARP </p>
+                      <button type="button" onClick={()=>setBuilder3Visible(true)} className="abstact-btn"><img src="/assets/image/message.png" alt=""/><span>View Abstract</span></button>
       
                   </div>
-                    <div className="col-4"><h6>Dennis Goh</h6><p>Principal Solutions Architect,<br />
-                    Cloudflare APAC</p>
+                    <div className="col-4"><h6>Bodeethorn <br/> Sirakantarat</h6><p>Senior Associate <br />
+                    Technical Architect, <br/>NTT Data</p>
                     </div>
                 </div>
               </div>
-            
-
             </div>
+              }
+                {page == 2 &&
+                       <div className="agenda-detail">
+                   <div className="agenda-box">
+                <div className="box-two row">
+                  <div className="col-8 pe-0">
+                    <div className="clock-div">
+                      <div className="clock-inner-div">
+                        <img src="/assets/image/Clock.png" alt=""/><p>2:45 PM - 3:05 PM</p>
+                      </div>
+                      <div className="clock-inner-div">
+                        <img src="/assets/image/location.png" alt=""/><p>Regency |</p>
+                      </div>
+                    </div>
+                    <p className="desc">How SoftDe'but Utilizes Cloudflare Workers <br/>to Fulfil Evolving Customer Expectations </p>
+                      <button type="button" onClick={()=>setBuilder4Visible(true)} className="abstact-btn"><img src="/assets/image/message.png" alt=""/><span>View Abstract</span></button>
+      
+                  </div>
+                    <div className="col-4"><h6>Kritsada Kaosumphan,</h6><p>AVP Sales & Marketing,<br />
+                    SoftDe'but</p>
+                    </div>
+                </div>
+              </div>        
+                   <div className="agenda-box">
+                <div className="box-two row align-items-center">
+                  <div className="col-8 pe-0">
+                    <div className="clock-div">
+                      <div className="clock-inner-div">
+                        <img src="/assets/image/Clock.png" alt=""/><p>5:00 PM - 5:20 PM</p>
+                      </div>
+                      <div className="clock-inner-div">
+                        <img src="/assets/image/location.png" alt=""/><p>Regency |</p>
+                      </div>
+                    </div>
+                    <p className="desc">Less Complexity, More Connectivity - Branch Connectivity Made Easy  </p>      
+                  </div>
+                    <div className="col-4">
+                    <h6>Leela Kanakala,</h6><p>Regional Senior<br />
+                   Solutions Specialist, <br/>Cloudflare APJC</p> 
+                    <h6 className="mt-2">Dennis Goh,</h6><p>Principal Specialist<br />
+                  Solutions Engineer, <br/>Networking, <br/> Cloudflare APJC</p> 
+                    </div>
+                </div>
+              </div>        
+                 <div className="agenda-box">
+                <div className="box-two row">
+                  <div className="col-8 pe-0">
+                    <div className="clock-div">
+                      <div className="clock-inner-div">
+                        <img src="/assets/image/Clock.png" alt=""/><p>5:20 PM - 5:40 PM</p>
+                      </div>
+                      <div className="clock-inner-div">
+                        <img src="/assets/image/location.png" alt=""/><p>Regency |</p>
+                      </div>
+                    </div>
+                    <p className="desc">Oops-Proof or Just Hoping for the Best? <br/>Are You Protected Against DDoS? </p>
+      
+                  </div>
+                    <div className="col-4"><h6>Siwat Tantikul,</h6><p>Senior Solutions Engineer,<br />
+                    Cloudflare Thailand</p>
+                    </div>
+                </div>
+              </div>  
+                       </div>
+                       }
+              <div className="pagination">
+                            <a onClick={()=>togglePage("p")} className="nav"><i className="bi bi-chevron-left me-2"></i> Earlier</a>
+                            <a onClick={()=>togglePage(1)} className={`page-number ${page == 1 ? "active" : ""}`}>1</a>
+                            <a onClick={()=>togglePage(2)} className={`page-number ${page == 2 ? "active" : ""}`}>2</a>
+                            <a onClick={()=>togglePage("n")} className="nav">Later <i className="bi bi-chevron-right ms-2"></i></a>
+                        </div>
+                       
         </div>
         </div>
        </section>
 
         {builder1Visible && <Builder1Modal show={builder1Visible} handleClose={setBuilder1Visible} />}
         {builder2Visible && <Builder2Modal show={builder2Visible} handleClose={setBuilder2Visible} />}
+        {builder3Visible && <Builder3Modal show={builder3Visible} handleClose={setBuilder3Visible} />}
+        {builder4Visible && <Builder4Modal show={builder4Visible} handleClose={setBuilder4Visible} />}
         <Footer />
     </div>
     )

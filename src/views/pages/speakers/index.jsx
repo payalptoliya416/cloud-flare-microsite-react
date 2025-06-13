@@ -9,6 +9,7 @@ import { useNavigate } from "react-router-dom";
 import Footer from "../../components/footer";
 import { Speaker11Modal, Speaker12Modal, Speaker13Modal, Speaker14Modal, Speaker15Modal, Speaker16Modal, Speaker17Modal, Speaker18Modal, Speaker19Modal, Speaker20Modal, Speaker21Modal, Speaker22Modal, Speaker1Modal, Speaker2Modal, Speaker3Modal, Speaker4Modal, Speaker5Modal, Speaker6Modal, Speaker7Modal, Speaker8Modal, Speaker9Modal } from "../../modals/speakers";
 import Speaker10Modal from "../../modals/speakers/speaker10modal";
+import Speaker23Modal from "../../modals/speakers/speaker23modal";
 
 const Speakers = () => {
     const navigate = useNavigate();
@@ -34,6 +35,7 @@ const Speakers = () => {
     const [speaker20Visible, setSpeaker20Visible] = useState(false);
     const [speaker21Visible, setSpeaker21Visible] = useState(false);
     const [speaker22Visible, setSpeaker22Visible] = useState(false);
+    const [speaker23Visible, setSpeaker23Visible] = useState(false);
   
     useEffect(()=>{
         if(getToken() == null){
@@ -60,12 +62,12 @@ const Speakers = () => {
                             <div className="col-4 mb-4">
                                 <div className="speaker-detail show-modal-overlay">
                                     <div className="speaker-user">
-                                        <img src="/assets/image/Ayush_Verma.png" alt=""/>
+                                        <img src="/assets/image/user1.png" alt=""/>
                                     </div>
                                     <div className="user-info">
                                         <div>
-                                            <h3>Ayush Verma</h3>
-                                            <p>Head of Solutions <br/>Engineering <br/>Southeast Asia, <br/>Cloudflare ASEAN  </p>
+                                            <h3>AVM Amorn <br/> Chomchoey</h3>
+                                            <p>Secretary General,<br/>NCSA Thailand </p>
                                         </div>
                                         <button type="button" onClick={()=>setSpeaker6Visible(true)}  className="checkout-btn btn"><img src="/assets/image/message.png" alt="" className="me-1"/>  View Remarks </button>
                                     </div>
@@ -74,128 +76,14 @@ const Speakers = () => {
                             <div className="col-4 mb-4">
                                 <div className="speaker-detail show-modal-overlay">
                                     <div className="speaker-user">
-                                        <img src="/assets/image/Ben_Munroe.png" alt=""/>
+                                        <img src="/assets/image/user2.png" alt=""/>
                                     </div>
                                     <div className="user-info">
                                         <div>
-                                            <h3>Ben Munroe</h3>
-                                            <p> Vice President, <br/> APAC Marketing, <br/> Cloudflare </p>
+                                            <h3>Alex Forster</h3>
+                                            <p> Head of Engineering, <br/>DDoS Mitigation,<br/> Cloudflare Inc. </p>
                                         </div>
                                         <button type="button" onClick={()=>setSpeaker19Visible(true)}  className="checkout-btn btn"><img src="/assets/image/message.png" alt="" className="me-1"/>  View Remarks </button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-4 mb-4">
-                                <div className="speaker-detail show-modal-overlay">
-                                    <div className="speaker-user">
-                                        <img src="/assets/image/Calvin_Min.png" alt=""/>
-                                    </div>
-                                    <div className="user-info">
-                                        <div>
-                                            <h3> Calvin Min Yew Ng</h3>
-                                            <p>Director (CSPC), <br/> Cyber Security Agency<br/>  of Bangkok (CSA)</p>
-                                        </div>
-                                        <button type="button" onClick={()=>setSpeaker14Visible(true)}  className="checkout-btn btn"><img src="/assets/image/message.png" alt="" className="me-1"/>  View Remarks </button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-4 mb-4">
-                                <div className="speaker-detail show-modal-overlay">
-                                    <div className="speaker-user">
-                                        <img src="/assets/image/user12.png" alt=""/>
-                                    </div>
-                                    <div className="user-info">
-                                        <div>
-                                            <h3>Claire Lim  </h3>
-                                            <p>Solution Engineer,<br/> Cloudflare ASEAN </p>
-                                        </div>
-                                        <button type="button" onClick={()=>setSpeaker12Visible(true)}  className="checkout-btn btn"><img src="/assets/image/message.png" alt="" className="me-1"/>  View Remarks </button>
-                                    </div>
-                                </div>
-                                
-                            </div>
-                            <div className="col-4 mb-4">
-                                <div className="speaker-detail show-modal-overlay">
-                                    <div className="speaker-user">
-                                        <img src="/assets/image/user5_1.png" alt=""/>
-                                    </div>
-                                    <div className="user-info">
-                                        <div>
-                                            <h3>David Liu</h3>
-                                            <p>Senior Product <br/> Marketing Manager-AI <br/>Cloudflare Inc. </p>
-                                        </div>
-                                        <button type="button" onClick={()=>setSpeaker5Visible(true)}  className="checkout-btn btn"><img src="/assets/image/message.png" alt="" className="me-1"/>  View Remarks </button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-4 mb-4">
-                                <div className="speaker-detail show-modal-overlay">
-                                    <div className="speaker-user">
-                                        <img src="/assets/image/Dennis_Goh.png" alt=""/>
-                                    </div>
-                                    <div className="user-info">
-                                        <div>
-                                            <h3>Dennis Goh</h3>
-                                            <p> Principal Solutions <br/>Architect, <br/>Cloudflare APAC </p>
-                                        </div>
-                                        <button type="button" onClick={()=>setSpeaker15Visible(true)}  className="checkout-btn btn"><img src="/assets/image/message.png" alt="" className="me-1"/>  View Remarks </button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-4 mb-4">
-                                <div className="speaker-detail show-modal-overlay">
-                                    <div className="speaker-user">
-                                        <img src="/assets/image/user11.png" alt=""/>
-                                    </div>
-                                    <div className="user-info">
-                                        <div>
-                                            <h3>Edwin Wong</h3>
-                                            <p>Specialist Solutions <br/>Engineer (Zero Trust), <br/>Cloudflare</p>
-                                        </div>
-                                        <button type="button" onClick={()=>setSpeaker11Visible(true)}  className="checkout-btn btn"><img src="/assets/image/message.png" alt="" className="me-1"/>  View Remarks </button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-4 mb-4">
-                                <div className="speaker-detail show-modal-overlay">
-                                    <div className="speaker-user">
-                                        <img src="/assets/image/user4.png" alt=""/>
-                                    </div>
-                                    <div className="user-info">
-                                        <div>
-                                            <h3>Elton Chew</h3>
-                                            <p>Senior Director, <br/> Solutions Engineering, <br/>Cloudflare APAC </p>
-                                        </div>
-                                        <button type="button" onClick={()=>setSpeaker20Visible(true)}  className="checkout-btn btn"><img src="/assets/image/message.png" alt="" className="me-1"/>  View Remarks </button>
-                                    </div>
-                                </div>
-                            
-                            </div>
-                            <div className="col-4 mb-4">
-                                <div className="speaker-detail show-modal-overlay">
-                                    <div className="speaker-user">
-                                        <img src="/assets/image/user1.png" alt=""/>
-                                    </div>
-                                    <div className="user-info">
-                                        <div>
-                                            <h3>Goran Risticevic</h3>
-                                            <p>Vice President, <br/> Cloudflare APAC</p>
-                                        </div>
-                                        <button type="button" onClick={()=>setSpeaker1Visible(true)} className="checkout-btn btn"><img src="/assets/image/message.png" alt="" className="me-1"/>  View Remarks </button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-4 mb-4">
-                                <div className="speaker-detail show-modal-overlay">
-                                    <div className="speaker-user">
-                                        <img src="/assets/image/Ivan_Lim.png" alt=""/>
-                                    </div>
-                                    <div className="user-info">
-                                        <div>
-                                            <h3>Ivan Lim</h3>
-                                            <p>Sales Engineer, <br/> Crowdstrike</p>
-                                        </div>
-                                        <button type="button" onClick={()=>setSpeaker21Visible(true)} className="checkout-btn btn"><img src="/assets/image/message.png" alt="" className="me-1"/>  View Remarks </button>
                                     </div>
                                 </div>
                             </div>
@@ -206,33 +94,133 @@ const Speakers = () => {
                                     </div>
                                     <div className="user-info">
                                         <div>
-                                            <h3>James Allworth</h3>
-                                            <p>Vice President, <br/> Head of Innovation and <br/>Head of Bangkok Office, <br/>Cloudflare Inc. </p>
+                                            <h3> Amirul Zharfan <br/> Zalid </h3>
+                                            <p>Technical <br/> Validation Engineer,<br/> Cloudflare</p>
+                                        </div>
+                                        <button type="button" onClick={()=>setSpeaker14Visible(true)}  className="checkout-btn btn"><img src="/assets/image/message.png" alt="" className="me-1"/>  View Remarks </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-4 mb-4">
+                                <div className="speaker-detail show-modal-overlay">
+                                    <div className="speaker-user">
+                                        <img src="/assets/image/user4.png" alt=""/>
+                                    </div>
+                                    <div className="user-info">
+                                        <div>
+                                            <h3>Anh Luu </h3>
+                                            <p>Regional Solutions Engineer,<br/>Cloudflare Philippines <br/>and Vietnam </p>
+                                        </div>
+                                        <button type="button" onClick={()=>setSpeaker12Visible(true)}  className="checkout-btn btn"><img src="/assets/image/message.png" alt="" className="me-1"/>  View Remarks </button>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div className="col-4 mb-4">
+                                <div className="speaker-detail show-modal-overlay">
+                                    <div className="speaker-user">
+                                        <img src="/assets/image/user5.png" alt=""/>
+                                    </div>
+                                    <div className="user-info">
+                                        <div>
+                                            <h3>Assoc. Prof. Cherdchai <br/>Nopmaneejumruslers,</h3>
+                                            <p>Senior ProductM.D. Vice President for <br/> Information Technology<br/>and Digital Transformation, <br/>Mahidol University </p>
+                                        </div>
+                                        <button type="button" onClick={()=>setSpeaker5Visible(true)}  className="checkout-btn btn"><img src="/assets/image/message.png" alt="" className="me-1"/>  View Remarks </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-4 mb-4">
+                                <div className="speaker-detail show-modal-overlay">
+                                    <div className="speaker-user">
+                                        <img src="/assets/image/user6.png" alt=""/>
+                                    </div>
+                                    <div className="user-info">
+                                        <div>
+                                            <h3>Ayush Verma</h3>
+                                            <p> Head of Solutions <br/>Engineering<br/>Cloudflare ASEAN </p>
+                                        </div>
+                                        <button type="button" onClick={()=>setSpeaker15Visible(true)}  className="checkout-btn btn"><img src="/assets/image/message.png" alt="" className="me-1"/>  View Remarks </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-4 mb-4">
+                                <div className="speaker-detail show-modal-overlay">
+                                    <div className="speaker-user">
+                                        <img src="/assets/image/user7.png" alt=""/>
+                                    </div>
+                                    <div className="user-info">
+                                        <div>
+                                            <h3>Bodeethorn <br/>Sirakantarat </h3>
+                                            <p>Senior Associate <br/>Technical Architect, <br/>NTT Data Thailand</p>
+                                        </div>
+                                        <button type="button" onClick={()=>setSpeaker11Visible(true)}  className="checkout-btn btn"><img src="/assets/image/message.png" alt="" className="me-1"/>  View Remarks </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-4 mb-4">
+                                <div className="speaker-detail show-modal-overlay">
+                                    <div className="speaker-user">
+                                        <img src="/assets/image/user8.png" alt=""/>
+                                    </div>
+                                    <div className="user-info">
+                                        <div>
+                                            <h3>Chatchawat <br/>Asawarakwong</h3>
+                                            <p>Vice Chairman <br/> and Group CISO, <br/>KASIKORN <br/>Business-Technology Group </p>
+                                        </div>
+                                        <button type="button" onClick={()=>setSpeaker20Visible(true)}  className="checkout-btn btn"><img src="/assets/image/message.png" alt="" className="me-1"/>  View Remarks </button>
+                                    </div>
+                                </div>
+                            
+                            </div>
+                            <div className="col-4 mb-4">
+                                <div className="speaker-detail show-modal-overlay">
+                                    <div className="speaker-user">
+                                        <img src="/assets/image/user9.png" alt=""/>
+                                    </div>
+                                    <div className="user-info">
+                                        <div>
+                                            <h3>Clement Wong</h3>
+                                            <p>Head of Centre of <br/> Excellence (CoE), <br/>Cloudflare APAC</p>
+                                        </div>
+                                        <button type="button" onClick={()=>setSpeaker1Visible(true)} className="checkout-btn btn"><img src="/assets/image/message.png" alt="" className="me-1"/>  View Remarks </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-4 mb-4">
+                                <div className="speaker-detail show-modal-overlay">
+                                    <div className="speaker-user">
+                                        <img src="/assets/image/user10.png" alt=""/>
+                                    </div>
+                                    <div className="user-info">
+                                        <div>
+                                            <h3>Dennis Goh</h3>
+                                            <p>Principal Specialist Solutions <br/> Engineer, Networking, <br/>Cloudflare APJC</p>
+                                        </div>
+                                        <button type="button" onClick={()=>setSpeaker21Visible(true)} className="checkout-btn btn"><img src="/assets/image/message.png" alt="" className="me-1"/>  View Remarks </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-4 mb-4">
+                                <div className="speaker-detail show-modal-overlay">
+                                    <div className="speaker-user">
+                                        <img src="/assets/image/user11.png" alt=""/>
+                                    </div>
+                                    <div className="user-info">
+                                        <div>
+                                            <h3>Harman Nagra</h3>
+                                            <p>Senior Manager,<br/> Solutions Engineering, <br/>Cloudflare APAC</p>
                                         </div>
                                         <button type="button" onClick={()=>setSpeaker3Visible(true)}  className="checkout-btn btn"><img src="/assets/image/message.png" alt="" className="me-1"/>  View Remarks </button>
                                     </div>
                                 </div>
                            
                             </div>
-                            {/*<div className="col-4 mb-4">
-                                <div className="speaker-detail show-modal-overlay">
-                                    <div className="speaker-user">
-                                        <img src="/assets/image/Jeremy_Jarrot.png" alt=""/>
-                                    </div>
-                                    <div className="user-info">
-                                        <div>
-                                            <h3>Jeremy Jarrot</h3>
-                                            <p> SASE Specialist, <br/>  Cloudflare ASEAN </p>
-                                        </div>
-                                        <button type="button" onClick={()=>setSpeaker4Visible(true)}  className="checkout-btn btn"><img src="/assets/image/message.png" alt="" className="me-1"/>  View Remarks </button>
-                                    </div>
-                                </div>
-                            
-                            </div>*/}
+                           
                             <div className="col-4 mb-4">
                                 <div className="speaker-detail show-modal-overlay">
                                     <div className="speaker-user">
-                                        <img src="/assets/image/user2.png" alt=""/>
+                                        <img src="/assets/image/user12.png" alt=""/>
                                     </div>
                                     <div className="user-info">
                                         <div>
@@ -247,12 +235,12 @@ const Speakers = () => {
                             <div className="col-4 mb-4">
                                 <div className="speaker-detail show-modal-overlay">
                                     <div className="speaker-user">
-                                        <img src="/assets/image/Kevin_Ng.png" alt=""/>
+                                        <img src="/assets/image/uver13.png" alt=""/>
                                     </div>
                                     <div className="user-info">
                                         <div>
-                                            <h3>Kevin Ng</h3>
-                                            <p> Senior Director <br/> Product and Engineering,<br/> Government Technology <br/> Agency of Bangkok </p>
+                                            <h3>Kirill Yuzhakov</h3>
+                                            <p> Head of IT <br/> Infrastructure Division,<br/>ABA Bank</p>
                                         </div>
                                         <button type="button" onClick={()=>setSpeaker13Visible(true)}  className="checkout-btn btn"><img src="/assets/image/message.png" alt="" className="me-1"/>  View Remarks </button>
                                     </div>
@@ -261,12 +249,12 @@ const Speakers = () => {
                             <div className="col-4 mb-4">
                                 <div className="speaker-detail show-modal-overlay">
                                     <div className="speaker-user">
-                                        <img src="/assets/image/user9.png" alt=""/>
+                                        <img src="/assets/image/user14.png" alt=""/>
                                     </div>
                                     <div className="user-info">
                                         <div>
-                                            <h3>Leela Kanakala </h3>
-                                            <p>Regional Senior<br/>Solutions Specialist, <br/>Cloudflare </p>
+                                            <h3>Kritsada <br/>Kaosumphan </h3>
+                                            <p>AVP Sales & Marketing,<br/>SoftDe'but </p>
                                         </div>
                                         <button type="button" onClick={()=>setSpeaker9Visible(true)}  className="checkout-btn btn"><img src="/assets/image/message.png" alt="" className="me-1"/>  View Remarks </button>
                                     </div>
@@ -275,12 +263,12 @@ const Speakers = () => {
                             <div className="col-4 mb-4">
                                 <div className="speaker-detail show-modal-overlay">
                                     <div className="speaker-user">
-                                        <img src="/assets/image/Nan_Hao_Maguire.png" alt=""/>
+                                        <img src="/assets/image/user15.png" alt=""/>
                                     </div>
                                     <div className="user-info">
                                         <div>
-                                            <h3>Nan Hao Maguire</h3>
-                                            <p>Field CTO,<br/>Cloudflare APAC</p>
+                                            <h3>Nattavut <br/>Meethong</h3>
+                                            <p>nForce</p>
                                         </div>
                                         <button type="button" onClick={()=>setSpeaker22Visible(true)}  className="checkout-btn btn"><img src="/assets/image/message.png" alt="" className="me-1"/>  View Remarks </button>
                                     </div>
@@ -289,12 +277,12 @@ const Speakers = () => {
                             <div className="col-4 mb-4">
                                 <div className="speaker-detail show-modal-overlay">
                                     <div className="speaker-user">
-                                        <img src="/assets/image/Nima_Saraf2.png" alt=""/>
+                                        <img src="/assets/image/user16.png" alt=""/>
                                     </div>
                                     <div className="user-info">
                                         <div>
-                                            <h3>Nima Saraf</h3>
-                                            <p>VP Sales and Services,<br/> Pacific Tech</p>
+                                            <h3>Paramet <br/>Keeratichairitnara</h3>
+                                            <p>Country Manager,<br/> Pacific Tech</p>
                                         </div>
                                         <button type="button" onClick={()=>setSpeaker18Visible(true)}  className="checkout-btn btn"><img src="/assets/image/message.png" alt="" className="me-1"/>  View Remarks </button>
                                     </div>
@@ -303,12 +291,12 @@ const Speakers = () => {
                             <div className="col-4 mb-4">
                                 <div className="speaker-detail show-modal-overlay">
                                     <div className="speaker-user">
-                                        <img src="/assets/image/user10.png" alt=""/>
+                                        <img src="/assets/image/user17.png" alt=""/>
                                     </div>
                                     <div className="user-info">
                                         <div>
-                                            <h3>Pramod Rane </h3>
-                                            <p>Senior Solutions <br/>Engineer</p>
+                                            <h3>Parkpoom <br/>Pornpratanwech</h3>
+                                            <p>Senior Associate <br/>Technical Architect,<br/>NTT Data Thailand</p>
                                         </div>
                                         <button type="button" onClick={()=>setSpeaker10Visible(true)}  className="checkout-btn btn"><img src="/assets/image/message.png" alt="" className="me-1"/>  View Remarks </button>
                                     </div>
@@ -317,12 +305,12 @@ const Speakers = () => {
                             <div className="col-4 mb-4">
                                 <div className="speaker-detail show-modal-overlay">
                                     <div className="speaker-user">
-                                        <img src="/assets/image/Praveen_john2.png" alt=""/>
+                                        <img src="/assets/image/user18.png" alt=""/>
                                     </div>
                                     <div className="user-info">
                                         <div>
-                                            <h3>Praveen John Kumar</h3>
-                                            <p>Lead Solutions Engineer,<br/> Sumologic | TechDirect</p>
+                                            <h3>Leela Kanakala</h3>
+                                            <p>Regional Senior <br/> Solutions Specialist, <br/>Cloudflare</p>
                                         </div>
                                         <button type="button" onClick={()=>setSpeaker17Visible(true)}  className="checkout-btn btn"><img src="/assets/image/message.png" alt="" className="me-1"/>  View Remarks </button>
                                     </div>
@@ -331,12 +319,12 @@ const Speakers = () => {
                             <div className="col-4 mb-4">
                                 <div className="speaker-detail show-modal-overlay">
                                     <div className="speaker-user">
-                                        <img src="/assets/image/user8.png" alt=""/>
+                                        <img src="/assets/image/user19.png" alt=""/>
                                     </div>
                                     <div className="user-info">
                                         <div>
-                                            <h3>Saikrishna Chavali</h3>
-                                            <p>Senior Product <br/>Marketing Manager </p>
+                                            <h3>Pichavee <br/> Voraphatphokin</h3>
+                                            <p>Regional Sales Director, <br/>Cloudflare Thailand, <br/>Philippines and Indochina </p>
                                         </div>
                                         <button type="button" onClick={()=>setSpeaker8Visible(true)}  className="checkout-btn btn"><img src="/assets/image/message.png" alt="" className="me-1"/>  View Remarks </button>
                                     </div>
@@ -345,13 +333,12 @@ const Speakers = () => {
                             <div className="col-4 mb-4">
                                 <div className="speaker-detail show-modal-overlay">
                                     <div className="speaker-user">
-                                        <img src="/assets/image/user7.png" alt=""/>
+                                        <img src="/assets/image/user20.png" alt=""/>
                                     </div>
                                     <div className="user-info">
                                         <div>
-                                            <h3>Sze Rong Tham </h3>
-                                            <p>Solution Engineer, <br/> Cloudflare ASEAN
-                                            </p>
+                                            <h3>Pongpisit <br/>Laosuwanwat </h3>
+                                            <p>Senior Solutions Engineer,<br/> Cloudflare Thailand </p>
                                         </div>
                                         <button type="button" onClick={()=>setSpeaker7Visible(true)}  className="checkout-btn btn"><img src="/assets/image/message.png" alt="" className="me-1"/>  View Remarks </button>
                                     </div>
@@ -360,33 +347,32 @@ const Speakers = () => {
                             <div className="col-4 mb-4">
                                 <div className="speaker-detail show-modal-overlay">
                                     <div className="speaker-user">
-                                        <img src="/assets/image/Tommy_Wong.png" alt=""/>
+                                        <img src="/assets/image/user22.png" alt=""/>
                                     </div>
                                     <div className="user-info">
                                         <div>
-                                            <h3>Tommy Wong</h3>
-                                            <p> Head of Cybersec,<br/>SRE and QA,<br/>Ryt Bank</p>
+                                            <h3>Siwat Tantikul</h3>
+                                            <p>Senior Solutions Engineer,<br/>Cloudflare Thailand</p>
                                         </div>
                                         <button type="button" onClick={()=>setSpeaker16Visible(true)}  className="checkout-btn btn"><img src="/assets/image/message.png" alt="" className="me-1"/>  View Remarks </button>
                                     </div>
                                 </div>
                             </div>
-                            {/* this */}
                 
-                            {/* <div className="col-4 mb-4">
+                            <div className="col-4 mb-4">
                                 <div className="speaker-detail show-modal-overlay">
                                     <div className="speaker-user">
-                                        <img src="/assets/image/Enrique_Hernandez.png" alt=""/>
+                                        <img src="/assets/image/user23.png" alt=""/>
                                     </div>
                                     <div className="user-info">
                                         <div>
-                                            <h3>Enrique Hernandez Gonzalez</h3>
-                                            <p>Assistant Director,<br/>Cybercrime Operations,<br/>Interpol</p>
+                                            <h3>Wichai Sirirat</h3>
+                                            <p>Assistant Chief<br/>Security Officer,<br/>GoSoft & CPALL Group</p>
                                         </div>
-                                        <button type="button" onClick={()=>setSpeaker15Visible(true)}  className="checkout-btn btn"><img src="/assets/image/message.png" alt="" className="me-1"/>  View Remarks </button>
+                                        <button type="button" onClick={()=>setSpeaker23Visible(true)}  className="checkout-btn btn"><img src="/assets/image/message.png" alt="" className="me-1"/>  View Remarks </button>
                                     </div>
                                 </div>
-                            </div> */}
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -415,6 +401,7 @@ const Speakers = () => {
         {speaker20Visible && <Speaker20Modal show={speaker20Visible} handleClose={setSpeaker20Visible} />}
         {speaker21Visible && <Speaker21Modal show={speaker21Visible} handleClose={setSpeaker21Visible} />}
         {speaker22Visible && <Speaker22Modal show={speaker22Visible} handleClose={setSpeaker22Visible} />}
+        {speaker23Visible && <Speaker23Modal show={speaker23Visible} handleClose={setSpeaker23Visible} />}
         <Footer page="" />
     </div>
     )

@@ -30,24 +30,25 @@ const PacificTech = () => {
             </div>
             <div className="sponsor-detail-ad">
                 <div className="container">
-                  <h2>Pacific Tech</h2>
+                  <h2>NTT Data</h2>
                   <img src="/assets/image/sponsor-big.png" alt="" className="sponsor-logo-img"/>
-                  <p className="para">Pacific Tech is an award-winning Value Added Distributor 
-                        offering cybersecurity, data protection, and managed 
-                        services across ASEAN. With strong technical expertise and a 
-                        vast partner network,we support top vendors like Cloudflare, 
-                        Fortinet, Sophos, Thales, Keysight and more across 
-                        Bangkok, Malaysia,Thailand, Indonesia and Cambodia.</p>
-                    <h3 className="para-title">Featured  Highlights</h3>
+                  <p className="para">NTT DATA is a $30B+ global innovator in business and
+                        technology services, serving 75% of the Fortune Global 100.
+                        With experts in 50+ countries, we deliver consulting, AI, digital
+                        infrastructure, and connectivity solutions - backed by $3.6B
+                        annual R&D to help clients innovate, transform, and thrive in a
+                        sustainable digital future.
+                        </p>
+                    <h3 className="para-title">Featured Highlights</h3>
 
-                    <p className="para">Uncover risk and optimize your Cloudflare investment with 
-                        us! Come visit our booth to have a webiste health check on 
-                        us. Write to us at <u>sales@pacifictech.com.sg</u> to find out more!</p>
+                    <p className="para">Innovation demands trust. NTT DATA secures complex
+                            enterprises with end-to-end protection— across cloud,
+                            network, and applications. As a global leader, we help you
+                            reduce risk, stay resilient, and transform faster. Security that
+                            enables strategy.</p>
+                            <p className="mb-4">Cybersecurity | NTT DATA</p>
                     <div className="gray-box-img">
-                        <img src="/assets/image/pacificTech.png" alt=""/>
-                    </div>
-                    <div className="download-btn">
-                        <a className="gradiant-button btn" target="_blank" href="https://domini.immerseasean.com/brochures/PacTechBrochure.pdf" download={true}> Download <img src="/assets/image/download.png" alt=""/></a>
+                        <img src="/assets/image/sp1.png" alt=""/>
                     </div>
                 </div>
             </div>

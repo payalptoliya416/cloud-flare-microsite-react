@@ -16,14 +16,14 @@ function FirstWaveModal({show , handleClose}) {
         <Modal.Body>
         <div className="checkbox-pop">
             <div className="relative-img">
-                <img src="/assets/image/im3.jpeg" alt=""/>
+                <img src="/assets/image/im8.png" alt="" style={{marginBottom:'-16px'}}/>
             </div>
             <img src="/assets/image/FirstWave.png" alt="" className="black-img"/>
             <div className="checkbox-info">
-                <h3>First Wave</h3>
+                <h3>SoftDe'but</h3>
                 <div className='pavilion-model-icon'>
                   <img src="/assets/image/location.png" alt="" />
-                  <span>Pacific Ballroom 1</span>
+                  <span>Regency Ballroom Foyer</span>
                 </div>
                 <p className='pavillion-description'>Present your QR code to the booth
                 representative to complete this visit.</p>

@@ -15,11 +15,11 @@ function JourneyModal({show , handleClose}) {
         </Modal.Header>
         <Modal.Body>
         <div className="title">
-            <h3 className="modal-title fs-5" id="staticBackdropLabel">Welcome to</h3>
-            <h2>My Colourful Journey</h2>
+            <h3 className="modal-title fs-5" id="staticBackdropLabel">Welcome to the</h3>
+            <h2>My Cloudflare Journey</h2>
 
-            <h4>To win a lucky draw prize</h4>
-            <p>Visit all 9 booths and you'll be entered into our Luck Draw for exclusive prizes!</p>
+            <h4>A win a lucky draw</h4>
+            <p>Complete all 8 booths and youʼll be entered <br/>into our Lucky Draw for exclusive prizes!</p>
             <a href="#"  className="work"><button>HOW IT WORKS </button></a>
 
             <ul className="popup-list">

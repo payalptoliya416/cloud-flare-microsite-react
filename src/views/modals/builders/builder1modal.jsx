@@ -9,17 +9,11 @@ function Builder1Modal({show , handleClose}) {
         <Modal.Header closeButton></Modal.Header>
         <Modal.Body>
         <div className="title">
-                        <p>In this session, weʼll explore how the integration of Cloudflare with 
-                          Sumo Logic empowers organizations to optimize website and 
-                          application performance while enhancing security. Learn how to 
-                          gain end-to-end visibility into your web traffic with real-time 
-                          analytics, detailed event monitoring, and actionable insights. We'll 
-                          showcase pre-built Cloudflare dashboards for performance, 
-                          security, and reliability metrics, as well as demonstrate how to 
-                          combine Cloudflare logs with other data sources for deeper 
-                          analysis. Attendees will also discover how easy it is to get started 
-                          with the integration and leverage advanced filtering, alerting, and 
-                          correlation features to proactively manage your web infrastructure.</p>
+                        <p>APIs are the backbone of modern applications, but they also
+              introduce new security risks. This session introduces the
+              fundamentals of API security and explains how Cloudflare helps
+              protect APIs from common threats like unauthorized access and
+              data leaks.</p>
                     </div>
 
         </Modal.Body>

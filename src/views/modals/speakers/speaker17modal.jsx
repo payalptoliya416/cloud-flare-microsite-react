@@ -9,12 +9,12 @@ function Speaker17Modal({show , handleClose}) {
         <Modal.Header closeButton></Modal.Header>
         <Modal.Body>
         <div className="sponsor-modal-info">
-            <p><strong>Praveen John Kumar,</strong> Lead Solutions Engineer at Sumo Logic, has 
-                16+ years of experience driving digital transformation, 
-                cybersecurity, AI/ML, and observability initiatives. He excels in 
-                bridging strategic vision with technical implementation, specializing 
-                in DevOps, cloud technologies, and AI/ML. Praveen empowers 
-                organizations to enhance security and operational excellence.
+            <p><strong>Leela Kanakala</strong>is a Regional Senior Solutions Specialist with deep
+              expertise in ASEAN cybersecurity. Specializing in Zero Trust, cloud
+              security, and AI-driven defenses, he designs tailored solutions
+              against evolving threats. With experience in Australiaʼs Solutions
+              Engineering and Channel Sales, he helps enterprises build resilient
+              security frameworks aligned with business goals.
             </p>
         </div>
         </Modal.Body>

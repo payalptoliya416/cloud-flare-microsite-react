@@ -9,12 +9,12 @@ function Speaker8Modal({show , handleClose}) {
         <Modal.Header closeButton></Modal.Header>
         <Modal.Body>
         <div className="sponsor-modal-info">
-            <p><strong> Saikrishna Chavali </strong>crafts stories and executes go-to-market 
-              strategies to simplify the work of infosec, sales, and product 
-              teams. At Cloudflare, he drives Application Security awareness 
-              and revenue. Formerly at Proofpoint and ObserveIT, he 
-              advanced cloud security marketing and grew the insider threat 
-              category, with a history of marketing success.
+            <p><strong> Pichavee Voraphatphokin </strong>is Cloudflareʼs Regional Sales Director,
+            with 20+ years of experience driving sales and operations across
+            ASEAN. Specializing in networking, security, and cloud
+            transformation, she helps enterprises and governments securely
+            innovate. Leveraging Cloudflareʼs AI-powered infrastructure, she
+            enables businesses to build a strong security foundation for growth.
             </p>
         </div>
         </Modal.Body>

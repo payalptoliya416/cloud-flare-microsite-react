@@ -9,12 +9,12 @@ function Speaker16Modal({show , handleClose}) {
         <Modal.Header closeButton></Modal.Header>
         <Modal.Body>
         <div className="sponsor-modal-info">
-            <p><strong>Tommy Wong  </strong> is a cybersecurity practitioner and thought leader 
-              with deep expertise in banking. He co-founded SherpaSec, a 
-              Malaysian cybersecurity NGO focused on community building and 
-              knowledge sharing. Tommy specializes in securing cloud-native 
-              digital banks and bridging cyber resilience with modern 
-              microservices-based digital banking architectures.
+            <p><strong>Siwat Tantikul </strong> is a seasoned cloud and infrastructure expert with
+            20+ years of experience in digital transformation, cloud adoption,
+            and networking. As a Senior Solutions Engineer at Cloudflare, he
+            helps enterprises modernize IT for scalability and security.
+            Previously at Google Cloud, Cisco, and True Corporation, he
+            specializes in AI-driven infrastructure, SDN, and edge computing.
             </p>
         </div>
         </Modal.Body>

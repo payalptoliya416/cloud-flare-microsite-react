@@ -16,16 +16,15 @@ function TechDirectModal({show , handleClose}) {
         <Modal.Body>
         <div className="checkbox-pop">
             <div className="relative-img">
-                <img src="/assets/image/sumoimg.png" alt="" className="im2-img"/>
+                <img src="/assets/image/im7.png" alt="" className="im2-img " style={{marginBottom:"-19px"}}/>
             </div>
             <img src="/assets/image/TechDirectModal.png" alt="" className="black-img"/>
             <div className="checkbox-info">
-                <h3>Sumo Logic | TechDirect</h3>
+                <h3>nForce Secure</h3>
                 <div className='pavilion-model-icon'>
                   <img src="/assets/image/location.png" alt="" />
-                  <span> Pacific Ballroom 1</span>
+                  <span> Regency Ballroom Foyer</span>
                 </div>
-                {/* <p>Write up here</p> */}
                 <p className='pavillion-description'>Present your QR code to the booth
                 representative to complete this visit.</p>
             </div>

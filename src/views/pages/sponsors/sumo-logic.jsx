@@ -30,24 +30,21 @@ const SumoLogic = () => {
             </div>
             <div className="sponsor-detail-ad">
                 <div className="container">
-                  <h2>Sumo Logic | Tech Direct</h2>
-                  <img src="/assets/image/sumoLogo.png" alt="" className="sponsor-logo-img"/>
-                  <p className="para">TechDirect, accessible at <u>techdirect.net</u>, is a 
-                    Bangkok-based IT solutions provider specializing in 
-                    managed services and cybersecurity. With over 13 years of 
-                    industry experience, TechDirect offers a comprehensive suite 
-                    of services designed to address modern IT challenges faced 
-                    by businesses across the ASEAN region.</p>
-                    <h3 className="para-title">Featured  Highlights</h3>
+                  <h2>nForce Secure</h2>
+                  <img src="/assets/image/sponsoer2.png" alt="" className="sponsor-logo-img"/>
+                  <p className="para">Provides complete IT network solutions with full Cyber Security
+                        Distributor and comprehensive protection nForce Secure Public
+                        Company Limited is a Thai Value-added specialty distributor of
+                        IT Security, Information Management and Network Solutions.</p>
+                        <h3 className="para-title">Featured Highlights</h3>
 
-                    <p className="para">Logs are simple on their own, but with digital apps, 
-                        infrastructure, and AI multiplying them, the data can 
-                        overwhelm teams. Sumo Logicʼs Log Analytics Platform 
-                        transforms this data into actionable insights, fueling 
-                        performance, security, and threat detection. Take fast, 
-                        informed action with Sumo Logic. Learn more today!</p>
+                    <p className="para">Our security technologies deliver advanced software and
+                        products for cloud and data center security, network security,
+                        advanced threat detection, data security, legacy
+                        modernization, data analytic and conversion of big data into
+                        security intelligence.</p>
                     <div className="gray-box-img">
-                        <img src="/assets/image/sumoBanner.png" alt=""/>
+                        <img src="/assets/image/sp2.png" alt=""/>
                     </div>
                     <div className="download-btn">
                     <a className="gradiant-button btn" target="_blank" href="https://domini.immerseasean.com/brochures/TechDirect-E-brochures.pdf" download={true}> Download <img src="/assets/image/download.png" alt=""/></a>

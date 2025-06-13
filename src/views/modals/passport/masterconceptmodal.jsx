@@ -16,14 +16,14 @@ function MasterConceptModal({show , handleClose}) {
         <Modal.Body>
         <div className="checkbox-pop">
             <div className="relative-img">
-                <img src="/assets/image/im4.jpeg" alt=""/>
+                <img src="/assets/image/im9.png" alt="" style={{marginBottom:'-20px',maxWidth:'70px'}}/>
             </div>
             <img src="/assets/image/MasterConcept.png" alt="" className="black-img"/>
             <div className="checkbox-info">
-                <h3>Master Concept</h3>
+                <h3>YIP IN TSOI</h3>
                 <div className='pavilion-model-icon'>
                   <img src="/assets/image/location.png" alt="" />
-                  <span>Pacific Ballroom 1</span>
+                  <span>Regency Ballroom Foyer </span>
                 </div>
                 <p className='pavillion-description'>Present your QR code to the booth
                 representative to complete this visit.</p>

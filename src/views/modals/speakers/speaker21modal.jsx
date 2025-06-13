@@ -9,13 +9,14 @@ function Speaker21Modal({show , handleClose}) {
         <Modal.Header closeButton></Modal.Header>
         <Modal.Body>
         <div className="sponsor-modal-info">
-            <p><strong>Ivan Lim</strong> is a Sales Engineer at CrowdStrike with three years of 
-            experience helping organizations in several South East Asian 
-            countries stop breaches. Drawing from his comprehensive 
-            understanding of modern security challenges, he will introduce how 
-            CrowdStrikeʼs Next-Generation SIEM is transforming traditional 
-            security operations, making them more efficient and effective for 
-            today's threat landscape.
+            <p><strong>Dennis Goh</strong> is a Principal Network Services Specialist at Cloudflare
+          with 16 years of experience in Network, Security and Datacenter
+          Solutions, including 8 years of collaborating with customers and
+          cloud providers across Asia Pacific and Japan to enhance their
+          network and security infrastructure. With extensive knowledge in
+          architecting and deploying cutting-edge solutions, he is passionate
+          about helping businesses design and implement strategies that
+          drive efficiency, resilience, and long-term success
             </p>
         </div>
         </Modal.Body>

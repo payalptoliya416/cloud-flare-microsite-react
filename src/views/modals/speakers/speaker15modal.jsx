@@ -9,13 +9,13 @@ function Speaker15Modal({show , handleClose}) {
         <Modal.Header closeButton></Modal.Header>
         <Modal.Body>
         <div className="sponsor-modal-info">
-            <p><strong>Dennis Goh</strong> is a Principal Network Services Specialist at 
-              Cloudflare with 16 years of experience in Network, Security, and 
-              Datacenter Solutions, including 8 years collaborating with 
-              customers and cloud providers across Asia Pacific and Japan to 
-              enhance network and security infrastructure. He is passionate 
-              about helping businesses design strategies that drive efficiency, 
-              resilience, and success. 
+            <p><strong>Ayush Verma</strong> leads Cloudflare's Solutions Engineering for
+          Southeast Asia & Korea, driving cloud innovation and
+          partnerships. A cybersecurity expert with a Master's in InfoComm
+          Security, he specializes in Zero Trust and network security. An
+          accomplished speaker and team leader, his prior roles at NCS and
+          Singtel strengthened Singapore's public sector security
+          infrastructure.
             </p>
         </div>
         </Modal.Body>

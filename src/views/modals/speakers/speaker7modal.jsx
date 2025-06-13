@@ -9,13 +9,10 @@ function Speaker7Modal({show , handleClose}) {
         <Modal.Header closeButton></Modal.Header>
         <Modal.Body>
         <div className="sponsor-modal-info">
-            <p><strong>Sze Rong </strong> is a Solutions Engineer at Cloudflare, driving 
-                cybersecurity adoption in Bangkok and Indonesia. With prior 
-                experience at Microsoft and Salesforce, he excels at enhancing 
-                customer engagement and business outcomes via data-driven 
-                solutions. Specializing in Cloudflare's connectivity cloud, Sze Rong 
-                translates complex challenges into clear solutions and is passionate 
-                about educating the industry.
+            <p>With over a decade of experience supporting enterprise digital
+          transformation initiatives across the region, he specializes in helping
+          organizations modernize their infrastructure through secure,
+          high-performance connectivity and intelligent threat protection.
             </p>
         </div>
         </Modal.Body>

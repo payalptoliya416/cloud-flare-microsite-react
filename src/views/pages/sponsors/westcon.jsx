@@ -30,26 +30,24 @@ const Westcon = () => {
             </div>
             <div className="sponsor-detail-ad">
                 <div className="container">
-                  <h2>Westcon</h2>
-                  <img src="/assets/image/westcon-logo.png" alt="" className="sponsor-logo-img"/>
-                  <p className="para">TWestcon-Comstor is a global technology provider and
-                        specialist distributor, operating in more than 70 countries.
-                        It delivers business value and opportunity by connecting the 
-                        worldʼs leading IT vendors with a channel of technology 
-                        resellers, systems integrators and service providers. It goes to 
-                        market through two lines of business: Westcon and Comstor</p>
-                    <h3 className="para-title">Featured  Highlights</h3>
+                  <h2>Pacific Tech</h2>
+                  <img src="/assets/image/sponsoer3.png" alt="" className="sponsor-logo-img"/>
+                  <p className="para">Pacific Tech is an award-winning Value Added Distributor
+                    offering cybersecurity, data protection and managed services
+                    across ASEAN. With strong technical expertise and a vast
+                    partner network, we support top vendors like Cloudflare,
+                    Fortinet, Sophos, Thales, Keysight and more across
+                    Singapore, Malaysia, Thailand, Indonesia and Cambodia.</p>
+                    <h3 className="para-title">Featured Highlights</h3>
 
-                    <p className="para">Say goodbye to complexity and hello to growth with our
-                        Customer Success value-added services!  Meeting the 
-                        demand for subscription-based models and Anything-as-a -Service can be a challenge. That's why we're here to 
-                        simplify your journey, boost efficiency, and meet evolving 
-                        customer demands—all with our support at every step.</p>
+                    <p className="para">Pacific Tech is a leading Value Added Distributor in ASEAN.
+                        We specialize in cybersecurity, data protection, and business
+                        continuity-offering trusted solutions from top vendors like
+                        Cloudflare. With strong local support and proven regional
+                        expertise, we empower Thai businesses to stay secure,
+                        resilient, and ready for the future.</p>
                     <div className="gray-box-img">
-                        <img src="/assets/image/westconBanner.png" alt=""/>
-                    </div>
-                    <div className="download-btn">
-                    <a className="gradiant-button btn" target="_blank" href="https://domini.immerseasean.com/brochures/SG_Westcon_Generic_Brochure.pdf" download={true}> Download <img src="/assets/image/download.png" alt=""/></a>
+                        <img src="/assets/image/sp3.png" alt=""/>
                     </div>
                 </div>
             </div>

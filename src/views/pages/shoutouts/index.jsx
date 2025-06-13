@@ -35,77 +35,66 @@ const Shoutouts = () => {
 
                     <div className="sponsor-main-box">
                         <div className="sponsor-inner-box mb-2 row align-items-center">
-                            <div className="sponsor-img col-3">
-                                <img src="/assets/image/sponsour4.png" alt=""/>
+                            <div className="sponsor-img col-4">
+                                <img src="/assets/image/spon1.png" alt=""/>
                             </div>
-                            <div className="sponsor col-3">
-                                <h4>Pacific Tech </h4>
-                            </div>
-                            <div className="shout-out-des col-6">
-                                <p>Performance & Security Health Check</p>
+                            <div className="shout-out-des col-8">
+                                <p>Letʼs talk secure transformation. NTT DATA helps
+                                enterprises move fast and stay secure. Visit our
+                                booth to learn how we enable confident
+                                innovation and receive exclusive freebies!</p>
                                     <a href="/app/sponsors/pacific-tech" className="gradiant-button btn"> View Full Profile
                                     <i className="bi bi-chevron-right"></i></a>
                             </div>
                         </div>
-                        <div className="sponsor-inner-box row align-items-center">
-                            <div className="sponsor-img col-3">
-                                <img src="/assets/image/sumo-logic.png" alt=""/>
+
+                        <div className="all-sponsor-title mb-2 mt-4"><h3>Gold Sponsor </h3></div>
+                   <div className="sponsor-inner-box row mb-3 align-items-center">
+                            <div className="sponsor-img col-4">
+                                <img src="/assets/image/spon2.png" alt=""/>
                             </div>
-                            <div className="sponsor col-3">
-                                <h4>Sumo Logic <br/> TechDirect </h4>
-                            </div>
-                            <div className="shout-out-des col-6">
-                                <p>Visit Sumo Logic + TechDirect to optimize performance! Join our lucky draw to win a
-                                Bose SoundLink speaker! </p>
+                            <div className="shout-out-des col-8">
+                                <p>Modernize your network, Secure corporate
+                                applications and web browsing. Accelerate your
+                                journey to Zero Trust and SASE/SSE today by
+                                nForce Secure. </p>
                                     <a href="/app/sponsors/sumo-logic" className="gradiant-button btn"> View Full Profile
                                     <i className="bi bi-chevron-right"></i></a>
                             </div>
                         </div>
-
-                        <div className="all-sponsor-title mb-2 mt-4"><h3>AI-Accelerator Sponsor </h3></div>
-
                         <div className="sponsor-inner-box mb-2 row align-items-center">
-                            <div className="sponsor-img col-3">
-                                <img src="/assets/image/westcon logo.png" alt=""/>
+                            <div className="sponsor-img col-4">
+                                <img src="/assets/image/sponsoer3.png" alt=""/>
                             </div>
-                            <div className="sponsor col-3">
-                                <h4>Westcon </h4>
+                            <div className="shout-out-des col-8">
+                                <p>Experience trusted cybersecurity and data
+                                protection with Pacific Tech. Visit our booth for
+                                expert advice and exclusive giveaways.</p>
+                                <a href="/app/sponsors/westcon" className="gradiant-button btn"> View Full Profile
+                                <i className="bi bi-chevron-right"></i></a>
                             </div>
-                            <div className="shout-out-des col-6">
-                                <p>Westcon-Comstor is a global technology distributor in 70+ countries, connecting top IT vendors with resellers to drive business
-                                value and opportunities.</p>
+                        </div>
+                        <div className="sponsor-inner-box mb-2 row align-items-center">
+                            <div className="sponsor-img col-4">
+                                <img src="/assets/image/sponsoer4.png" alt=""/>
+                            </div>
+                            <div className="shout-out-des col-8">
+                                <p>Visit Us at SoftDeʼbut booth and talk with our
+                        subject matter experts. We are ready to support
+                        you, don't miss our exclusive giveaways!</p>
                                 <a href="/app/sponsors/westcon" className="gradiant-button btn"> View Full Profile
                                 <i className="bi bi-chevron-right"></i></a>
                             </div>
                         </div>
                         <div className="all-sponsor-title mb-2 mt-4"><h3>Bronze Sponsor </h3></div>
-
-                        <div className="sponsor-inner-box mb-2 row align-items-center">
-                            <div className="sponsor-img col-3">
-                                <img src="/assets/image/sponsour1.png" alt=""/>
-                            </div>
-                            <div className="sponsor col-3">
-                                <h4>First Wave
-                                    Technology
-                                    Pte. Ltd. </h4>
-                            </div>
-                            <div className="shout-out-des col-6">
-                                <p>Discover how First Wave simplifies multicloud and security with Zero Trust, WAF, and observability
-                        - visit our booth and book a free cloud readiness assessment! </p>
-                            </div>
-                        </div>
-
                         <div className="sponsor-inner-box row align-items-center">
-                            <div className="sponsor-img col-3">
-                                <img src="/assets/image/master concept logo.png" alt=""/>
+                            <div className="sponsor-img col-4">
+                                <img src="/assets/image/spon5.png" alt=""/>
                             </div>
-                            <div className="sponsor col-3">
-                                <h6>MCI </h6>
-                                <h4>(Master Concept)</h4>
-                            </div>
-                            <div className="shout-out-des col-6">
-                                <p>Trusted by Cloudlare, Master Concept offers a full specirum of security services, coupled with strategic tech guidance to
-                                build a secure foundation for your organization's future.  </p>
+                            <div className="shout-out-des col-8">
+                                    <p>Discover how Cloudflare One simplifies SASE
+                                with seamless Zero Trust, SWG, and
+                                DLP—secure, fast, and scalable.  </p>
                             </div>
                         </div>
 

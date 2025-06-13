@@ -9,12 +9,12 @@ function Speaker9Modal({show , handleClose}) {
         <Modal.Header closeButton></Modal.Header>
         <Modal.Body>
         <div className="sponsor-modal-info">
-            <p><strong>Leela Kanakala </strong> is a Regional Senior Solutions Specialist with 
-                deep expertise in ASEAN cybersecurity. Specializing in Zero 
-                Trust, cloud security, and AI-driven defenses, he designs tailored 
-                solutions against evolving threats. With experience in Australiaʼs 
-                Solutions Engineering and Channel Sales, he helps enterprises 
-                build resilient security frameworks aligned with business goals.
+            <p><strong>Kritsada</strong>is AVP of Sales and Marketing at SoftDe'but, leading
+            go-to-market strategies across security, performance, and edge
+            solutions. Kritsada bridges technical value and business outcomes.
+            aHe is key in driving Cloudflare's business, customer success,
+            and scaling revenue in todayʼs fast-evolving internet infrastructure
+            landscape.
             </p>
         </div>
         </Modal.Body>

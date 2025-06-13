@@ -88,7 +88,7 @@ const Passport = () => {
                     </div>}
                     {canDisplay && <><div className="passport-journy">
                         <div className="title">
-                            <h2>My Colourful Journey</h2>
+                            <h2>My Cloudflare Journey</h2>
                         </div>
                         <div className="passport-progress-section">
                             <div className="yellow-div"><div className="yellow"> </div><h6>STARTING POINT</h6></div>
@@ -110,7 +110,6 @@ const Passport = () => {
                                 <li><a href="#"><img src="/assets/image/Step 10.png" alt="" /></a></li>
                                 <li><a href="#"><img src="/assets/image/Step 20.png" alt="" /></a></li>
                                 <li><a href="#"><img src="/assets/image/Step 20_1.png" alt="" /></a></li>
-                                <li><a href="#"><img src="/assets/image/Step 30_1.png" alt="" /></a></li>
                                 <li><a href="#"><img src="/assets/image/Step 30.png" alt="" /></a></li>
                                 <li><a href="#"><img src="/assets/image/Step 60.png" alt="" /></a></li>
                                 <li><a href="#"><img src="/assets/image/Step 70.png" alt="" /></a></li>
@@ -180,24 +179,10 @@ const Passport = () => {
                                                 <a onClick={()=>setIndustriesPavilionVisible(true)} className="find-link" >Find out more <i className="bi bi-chevron-right "></i></a>
                                             </div>
                                         </div>
-
-                                        <div className="booth-box">
-                                            <div className="booth-img newBox">
-                                                <img src="/assets/image/AI Hub Icone.png" alt="" onClick={()=>setIndustriesPavilionPublicVisible(true)}/>
-                                                <h6>  Industries Pavilion - Public Sector</h6>
-                                            </div>  
-                                            <div className="booth-checkbox">
-                                                <label className="custom-checkbox">
-                                                    <input type="checkbox" checked={progress.journey.pavillion_ps} disabled />
-                                                    <span className="checkmark"></span>
-                                                </label>
-                                                <a onClick={()=>setIndustriesPavilionPublicVisible(true)} className="find-link" >Find out more <i className="bi bi-chevron-right "></i></a>
-                                            </div>
-                                        </div>
                                         
                                         <div className="booth-box">
                                             <div className="booth-img">
-                                                <img src="/assets/image/pacific tech logo.png" alt="" onClick={()=>setPacificVisible(true)}/>
+                                                <img src="/assets/image/sponsoer1.png" alt="" onClick={()=>setPacificVisible(true)}/>
                                             </div>  
                                             <div className="booth-checkbox">
                                                 <label className="custom-checkbox">
@@ -209,7 +194,7 @@ const Passport = () => {
                                         </div>
                                         <div className="booth-box">
                                             <div className="booth-img">
-                                                <img src="/assets/image/techdirect logo.png" alt=""  onClick={()=>setTechDirectVisible(true)}/>
+                                                <img src="/assets/image/sponsoer2.png" alt=""  onClick={()=>setTechDirectVisible(true)}/>
                                             </div>  
                                             <div className="booth-checkbox">
                                                 <label className="custom-checkbox">
@@ -222,7 +207,7 @@ const Passport = () => {
                                         </div>
                                         <div className="booth-box">
                                             <div className="booth-img">
-                                                <img src="/assets/image/westcon logo.png" alt="" onClick={()=>setWestconVisible(true)}/>
+                                                <img src="/assets/image/sponsoer3.png" alt="" onClick={()=>setWestconVisible(true)}/>
                                             </div>  
                                             <div className="booth-checkbox">
                                                 <label className="custom-checkbox">
@@ -235,7 +220,7 @@ const Passport = () => {
                                         </div>
                                         <div className="booth-box">
                                             <div className="booth-img">
-                                                <img src="/assets/image/first wave logo.png" alt=""  onClick={()=>setFirstWaveVisible(true)}/>
+                                                <img src="/assets/image/spon4.png" alt=""  onClick={()=>setFirstWaveVisible(true)}/>
                                             </div>  
                                             <div className="booth-checkbox">
                                                 <label className="custom-checkbox">
@@ -248,7 +233,7 @@ const Passport = () => {
                                         </div>
                                         <div className="booth-box">
                                             <div className="booth-img">
-                                                <img src="/assets/image/master concept logo.png" alt=""  onClick={()=>setMasterConceptVisible(true)}/> 
+                                                <img src="/assets/image/spon5.png" alt=""  onClick={()=>setMasterConceptVisible(true)}/> 
                                             </div>  
                                             <div className="booth-checkbox">
                                                 <label className="custom-checkbox"> 
@@ -275,12 +260,12 @@ const Passport = () => {
                             {aiHubVisible && <AiHubModal show={aiHubVisible} handleClose={setAiHubVisible} />}
                             {immersePavilionVisible && <ImmersePavilionModal show={immersePavilionVisible} handleClose={setImmersePavilionVisible} />}
                             {industriesPavilionVisible && <IndustriesPavilionModal show={industriesPavilionVisible} handleClose={setIndustriesPavilionVisible} />}
-                            {industriesPavilionPublicVisible && <IndustriesPavilionPublicModal show={industriesPavilionPublicVisible} handleClose={setIndustriesPavilionPublicVisible} />}
                         </div>
                     </div></>}
                 </div>
             </section>}
-            {progress.count >= 9 && <section>
+            <section>
+            {/* {progress.count >= 9 && <section> */}
                 <div className="passport-logo">
                     <img
                     src="/assets/image/logosec.png"
@@ -301,7 +286,7 @@ const Passport = () => {
                         </h3>
                         <img src="/assets/image/congras.png" alt="" />
                         <p><strong>Youʼre eligible for a chance <br/>
-                        </strong>to win our<strong>Grand Prize!</strong></p>
+                        </strong>to win our <strong> Grand Prize!</strong></p>
                     </div>
                     <div className="congrats-data">
                         <div className="row">
@@ -310,15 +295,15 @@ const Passport = () => {
                                     <button className="btn">Grand Prize
                                     </button>
                                     <img src="/assets/image/prize1.png" alt="" />
-                                    <h3>Airwheel <br/> Luggage</h3>
+                                    <h3>Zendrian ZX-9 <br/> Standard e-Scooter</h3>
                                 </div>
                             </div>
                             <div className="col-4 pe-0">
                                 <div className="prize-info h-100">
                                     <button className="btn">2nd Prize </button>
                                     <img src="/assets/image/prize2.png" alt="" />
-                                    <h3>Ray-Ban Meta
-                                    <br/> Smart Glasses
+                                    <h3>Bluetooth Camera &
+                                    <br/> AI translation Smart Glasses
                                     </h3>
                                 </div>
                             </div>
@@ -327,14 +312,18 @@ const Passport = () => {
                                     <button className="btn">3rd Prize
                                     </button>
                                     <img src="/assets/image/prize3.png" alt="" />
-                                    <h3>XiaoMi <br/> Vacuum Robot
+                                    <h3>GravaStar G5<br/>Bluetooth Speaker
                                     </h3>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <p className="price-para"><strong>Lucky Draw </strong>will happen at the <br/><strong>end of todayʼs session during
+                    <br/>Closing Remark</strong>at our main stage!</p>
+                    <p className="prize-limit"><sup>*</sup>Prizes are limited to attendees who are present during the lucky draw session.</p>
                 </div>
-            </section>}
+            </section>
+            {/* </section>} */}
             <Footer page="passport" />
         </div>
     )

@@ -9,12 +9,10 @@ function Speaker22Modal({show , handleClose}) {
         <Modal.Header closeButton></Modal.Header>
         <Modal.Body>
         <div className="sponsor-modal-info">
-            <p><strong>Nan Hao Maguire</strong> is the Field CTO for Cloudflare in APAC, 
-                advising tech leaders on resilient and secure architectures using 
-                Cloudflare's global network. Her expertise in enterprise IT, 
-                cybersecurity, and digital transformation guides customers in Zero 
-                Trust, application modernization, and AI threat mitigation, fostering 
-                innovation across the region.
+            <p><strong>Nattavut Meethong</strong> is a seasoned Security Consultant at nForce
+        Secure Public Company Limited is a leading cybersecurity
+        distribution company in Thailand dedicated to providing innovative
+        solutions and services.
             </p>
         </div>
         </Modal.Body>

@@ -9,11 +9,11 @@ function Speaker18Modal({show , handleClose}) {
         <Modal.Header closeButton></Modal.Header>
         <Modal.Body>
         <div className="sponsor-modal-info">
-            <p><strong>Nima Saraf,</strong> has 20+ years of expertise in cybersecurity, cloud
-                infrastructure, and AI-driven services. With a customer-first
-                approach and deep technical knowledge, he develops intelligent
-                tools to enhance digital resilience and operational maturity in
-                complex environments.
+            <p><strong>Mr. Paramet Keeratichalritnara</strong> the visionary Country Manager
+          for Thalland, stands at the forefront of driving cutting-edge
+          cybersecurity innovation in the Thai market. With unmatched
+          expertise and strategle leadership, he is a key force shaping the
+          future of digital security In the region.
             </p>
         </div>
         </Modal.Body>

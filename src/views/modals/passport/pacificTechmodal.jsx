@@ -16,14 +16,14 @@ function PacificTechModal({show , handleClose}) {
         <Modal.Body>
         <div className="checkbox-pop">
             <div className="relative-img">
-                <img src="/assets/image/im1.jpeg" alt=""/>
+                <img src="/assets/image/im6.png" alt=""/>
             </div>
             <img src="/assets/image/Booth_PacTech.png" alt="" className="black-img"/>
             <div className="checkbox-info">
-                <h3>Pacific Tech</h3>
+                <h3>NTT Data</h3>
                 <div className='pavilion-model-icon'>
                   <img src="/assets/image/location.png" alt="" />
-                  <span> Pacific Ballroom 1</span>
+                  <span>Regency Ballroom Foyer </span>
                 </div>
                 <p className='pavillion-description'>Present your QR code to the booth
                 representative to complete this visit</p>
